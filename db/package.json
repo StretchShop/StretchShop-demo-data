@@ -1,0 +1,21 @@
+{
+  "name": "stretchshop-demo-data",
+  "version": "1.0.0",
+  "description": "import for stretchshop demo data",
+  "main": "demo_data.js",
+  "scripts": {
+    "import": "node demo_data.js"
+  },
+  "keywords": [
+    "stretchshop",
+    "demo",
+    "data"
+  ],
+  "author": "Marcel Zubrik cw.sk",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "glob": "^7.1.6",
+    "mongodb": "^3.4.1"
+  }
+}
