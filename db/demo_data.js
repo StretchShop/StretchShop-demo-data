@@ -20,7 +20,7 @@ MongoClient.connect(url, function(err, database) {
 
 	let importer = [];
 
-	glob("./json/*.json", function (error, files) {
+	glob(__dirname+"/json/*.json", function (error, files) {
 			files.forEach(function (filename) {
 				const documents = JSON.parse(fs.readFileSync(filename, "utf8"));
 				let extension = path.extname(filename);
