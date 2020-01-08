@@ -3,7 +3,7 @@ var path = require("path");
 const MongoClient = require("mongodb").MongoClient;
 const glob = require("glob");
 
-const databaseName = "stretchshop3";
+const databaseName = "stretchshop_demo";
 
 // const url = "mongodb://user:pwd@localhost:27017/"+ databaseName +"?authMechanism=DEFAULT&authSource=admin";
 const url = "mongodb://localhost:27017/"+ databaseName +"";
