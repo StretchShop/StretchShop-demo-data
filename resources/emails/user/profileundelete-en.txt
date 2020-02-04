@@ -1,0 +1,7 @@
+Hi {{username}},
+
+just want to let you know, you canceled deleting your profile.
+
+If you meet any problems or it wasn't you, contact us on {{support_email}}
+
+Your team of  {{webname}}

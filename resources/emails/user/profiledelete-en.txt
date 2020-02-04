@@ -1,0 +1,8 @@
+Hi {{username}},
+
+we are sorry to receive your your request to delete your profile. It will be removed in 14 days on {{date}}.
+If you change your mind within these days, you can cancel deleting it in your profile page.
+
+If you meet any problems, contact us on {{support_email}}
+
+Your team of  {{webname}}
