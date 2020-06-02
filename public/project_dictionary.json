@@ -156,7 +156,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Price",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(3) > div.th-wrap.is-pulled-right",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(3) > div.th-wrap.is-pulled-right",
                 "translations": [
                   {
                     "langCode": "en",
@@ -165,20 +165,48 @@
                 ]
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "phrase": "Without Tax",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
           {
-            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/Cart.vue",
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/products/ProductBox.vue",
             "selector": "[translate]",
             "type": "text",
             "blockName": "texts",
             "translationStrings": [
               {
-                "stringOrig": "Price",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(3) > div.th-wrap.is-pulled-right",
+                "stringOrig": "Without Tax",
+                "selector": "html > body > template > article.tile.is-child.box > div.bottom-part > div.product-price-tax:nth-child(3) > span",
                 "translations": [
                   {
                     "langCode": "en",
-                    "translation": "Price"
+                    "translation": "Without Tax"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/products/ProductDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Without Tax",
+                "selector": "html > body > template > div.container.product-detail > div.columns.reversed > div.column.is-5.data-main > div > div.content > div.columns > div.column.is-6:nth-child(1) > div.detail-price.is-size-8 > span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Without Tax"
                   }
                 ]
               }
@@ -312,7 +340,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Products",
-                "selector": "#navbarBasicExample > div.navbar-start:nth-child(2) > router-link.navbar-item:nth-child(3)",
+                "selector": "html > body > template > header.header > nav.navbar.is-fixed-top > div.container > div.navbar-menu > div.navbar-start:nth-child(2) > router-link.navbar-item:nth-child(3)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -2055,7 +2083,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Name",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(1) > div.th-wrap",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(1) > div.th-wrap",
                 "translations": [
                   {
                     "langCode": "en",
@@ -2073,7 +2101,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Name",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(1) > div.th-wrap",
+                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(1) > div.th-wrap",
                 "translations": [
                   {
                     "langCode": "en",
@@ -2394,7 +2422,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Total",
-                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable.is-8 > div.column.is-12 > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(3) > div.th-wrap.is-pulled-right",
+                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable > div.column.is-12 > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(3) > div.th-wrap.is-pulled-right",
                 "translations": [
                   {
                     "langCode": "en",
@@ -3232,7 +3260,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Delivery Addresses",
-                "selector": "#meDelivery > div.columns.is-variable.is-8 > div.column.is-8 > h2.title.is-2.has-text-centered",
+                "selector": "#meDelivery > div.columns.is-variable > div.column.is-8 > h2.title.is-2.has-text-centered",
                 "translations": [
                   {
                     "langCode": "en",
@@ -4523,6 +4551,24 @@
                 ]
               }
             ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/global/Footer.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Company",
+                "selector": "html > body > template > footer.footer > div.container > div.columns.has-text-left > div.column.is-3:nth-child(4) > h6.title.is-6",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Company"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -4728,7 +4774,7 @@
               },
               {
                 "stringOrig": "Profile",
-                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.is-8.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(2)",
+                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(2)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -4779,7 +4825,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Your Settings",
-                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.is-8.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > p.panel-heading > span",
+                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > p.panel-heading > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -4812,7 +4858,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Company Data",
-                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.is-8.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(3)",
+                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(3)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -4845,7 +4891,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Invoice Address",
-                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.is-8.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(4)",
+                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(4)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -4896,7 +4942,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Delivery addresses",
-                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.is-8.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(5)",
+                "selector": "html > body > template > div.container.users-me > div:nth-child(1) > div.columns.is-variable.has-text-left > div.column.is-3 > nav.panel.user-settings-nav > router-link.panel-block:nth-child(5)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -4930,6 +4976,24 @@
               {
                 "stringOrig": "Unauthorized",
                 "selector": "html > body > template > div.container.users-me > div:nth-child(2) > div.columns > div.column > h1.title.is-1",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Unauthorized"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Unauthorized",
+                "selector": "#userOrderDetail > div.container > div.columns.is-variable.is-centered > div.column.is-8 > h1.title.is-1",
                 "translations": [
                   {
                     "langCode": "en",
@@ -5099,6 +5163,155 @@
                   {
                     "langCode": "en",
                     "translation": "Account not activated. Check your mailbox for activation email."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "This field cannot be empty",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "Pole nesmie byť prázne"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/Login.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.column.is-4.is-offset-4:nth-child(2) > form > div.field.email > div.form-messages.is-hidden > div.form-message:nth-child(3)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.column.is-4.is-offset-4:nth-child(2) > form > div.field.password > div.form-messages.is-hidden > div.form-message",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/Register.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(2) > div.column.is-12 > div.field.username > div.form-messages.is-hidden > div.form-message",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(3) > div.column.is-6:nth-child(1) > div.field.email > div.form-messages.is-hidden > div.form-message:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(3) > div.column.is-6:nth-child(2) > div.field.email2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(4) > div.column.is-6:nth-child(1) > div.field.password > div.form-messages.is-hidden > div.form-message",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(4) > div.column.is-6:nth-child(2) > div.field.password2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/User.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "#cart-user-email > div.field.email > div.form-messages.is-hidden > div.form-message:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "#cart-user-email2 > div.field.email2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "#cart-user-password > div.field.password > div.form-messages.is-hidden > div.form-message",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "This field cannot be empty",
+                "selector": "#cart-user-password2 > div.field.password2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This field cannot be empty"
                   }
                 ]
               }
@@ -5473,127 +5686,6 @@
         ]
       },
       {
-        "phrase": "This field cannot be empty",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Pole nesmie byť prázne"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/Register.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(2) > div.column.is-12 > div.field.username > div.form-messages.is-hidden > div.form-message",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(3) > div.column.is-6:nth-child(1) > div.field.email > div.form-messages.is-hidden > div.form-message:nth-child(1)",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(3) > div.column.is-6:nth-child(2) > div.field.email2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(4) > div.column.is-6:nth-child(1) > div.field.password > div.form-messages.is-hidden > div.form-message",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(4) > div.column.is-6:nth-child(2) > div.field.password2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/User.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "#cart-user-email > div.field.email > div.form-messages.is-hidden > div.form-message",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "#cart-user-email2 > div.field.email2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "#cart-user-password > div.field.password > div.form-messages.is-hidden > div.form-message",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              },
-              {
-                "stringOrig": "This field cannot be empty",
-                "selector": "#cart-user-password2 > div.field.password2 > div.form-messages.is-hidden > div.form-message:nth-child(1)",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "This field cannot be empty"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "phrase": "Email",
         "language": {
           "code": "en",
@@ -5666,6 +5758,24 @@
               {
                 "stringOrig": "This email already exists",
                 "selector": "html > body > template > div.container.users-login > div.columns:nth-child(2) > div.column.is-half.is-offset-one-quarter:nth-child(1) > form > div.simple-wrapper:nth-child(1) > div.columns.is-variable.is-2.is-centered:nth-child(3) > div.column.is-6:nth-child(1) > div.field.email > div.form-messages.is-hidden > div.form-message:nth-child(2)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "This email already exists"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/User.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "This email already exists",
+                "selector": "#cart-user-email > div.field.email > div.form-messages.is-hidden > div.form-message:nth-child(2)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -5863,7 +5973,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Orders",
-                "selector": "#userOrderDetail > div.container:nth-child(1) > div.columns.is-variable.is-8.is-centered > div.column.is-8 > nav.breadcrumb > ul > li:nth-child(1) > router-link > span",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container:nth-child(1) > div.columns.is-variable.is-centered > div.column.is-8 > nav.breadcrumb > ul > li:nth-child(1) > router-link > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -5914,7 +6024,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Order",
-                "selector": "#userOrderDetail > div.container:nth-child(1) > div.columns.is-variable.is-8.is-centered > div.column.is-8 > nav.breadcrumb > ul > li.is-active > a > span.order-word",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container:nth-child(1) > div.columns.is-variable.is-centered > div.column.is-8 > nav.breadcrumb > ul > li.is-active > a > span.order-word",
                 "translations": [
                   {
                     "langCode": "en",
@@ -5924,7 +6034,7 @@
               },
               {
                 "stringOrig": "Order",
-                "selector": "#userOrderDetail > h2.title.is-2 > span:nth-child(1)",
+                "selector": "#userOrderDetail > div:nth-child(1) > h2.title.is-2 > span:nth-child(1)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -5957,7 +6067,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Created",
-                "selector": "#userOrderDetail > div.container:nth-child(3) > div.columns.is-variable.is-8.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(1) > a.step-link > div.step-details > span.step-title > span:nth-child(1)",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container:nth-child(3) > div.columns.is-variable.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(1) > a.step-link > div.step-details > span.step-title > span:nth-child(1)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -5990,7 +6100,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Paid",
-                "selector": "#userOrderDetail > div.container:nth-child(3) > div.columns.is-variable.is-8.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(2) > a.step-link > div.step-details > span.step-title > span:nth-child(1)",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container:nth-child(3) > div.columns.is-variable.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(2) > a.step-link > div.step-details > span.step-title > span:nth-child(1)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6023,7 +6133,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Expeded",
-                "selector": "#userOrderDetail > div.container:nth-child(3) > div.columns.is-variable.is-8.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(3) > a.step-link > div.step-details > span.step-title > span:nth-child(1)",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container:nth-child(3) > div.columns.is-variable.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(3) > a.step-link > div.step-details > span.step-title > span:nth-child(1)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6056,7 +6166,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Your available actions",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(4) > div.columns.is-variable.is-8 > div.column.is-12 > span",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(4) > div.columns.is-variable > div.column.is-12 > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6089,7 +6199,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Pay order",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(4) > div.columns.is-variable.is-8 > div.column.is-12 > div:nth-child(2) > button.button > span",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(4) > div.columns.is-variable > div.column.is-12 > div:nth-child(2) > button.button > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6155,7 +6265,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Qty",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(2) > div.th-wrap.is-pulled-right",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(2) > div.th-wrap.is-pulled-right",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6173,7 +6283,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Qty",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(2) > div.th-wrap.is-pulled-right",
+                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(2) > div.th-wrap.is-pulled-right",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6206,7 +6316,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Products Total",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(1) > td.has-text-right:nth-child(2) > strong",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(1) > td.has-text-right:nth-child(2) > strong",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6224,7 +6334,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Products Total",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(1) > td.has-text-right:nth-child(2) > strong",
+                "selector": "#cart__products-total > td.has-text-right:nth-child(2) > strong",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6257,7 +6367,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Price delivery",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(2) > td.has-text-right:nth-child(2) > span",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(2) > td.has-text-right:nth-child(2) > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6275,7 +6385,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Price delivery",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(2) > td.has-text-right:nth-child(2) > span",
+                "selector": "#order__delivery > td.has-text-right:nth-child(2) > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6308,7 +6418,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Price payment",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(3) > td.has-text-right:nth-child(2) > span",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(3) > td.has-text-right:nth-child(2) > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6326,7 +6436,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Price payment",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(3) > td.has-text-right:nth-child(2) > span",
+                "selector": "#order__payment > td.has-text-right:nth-child(2) > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6359,7 +6469,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Total price",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(4) > td.has-text-right:nth-child(2) > strong",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(4) > td.has-text-right:nth-child(2) > strong",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6377,7 +6487,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Total price",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(4) > td.has-text-right:nth-child(2) > strong",
+                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > tfoot > tr:nth-child(6) > td.has-text-right:nth-child(2) > strong",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6413,7 +6523,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Total price",
-                "selector": "#navbarBasicExample > div.navbar-end > div.navbar-item.userCart > router-link.navbar-link.userCartLink > div.navbar-dropdown > div:nth-child(2) > strong",
+                "selector": "#header-cart-dropdown > div:nth-child(2) > strong",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6446,7 +6556,7 @@
             "translationStrings": [
               {
                 "stringOrig": "No items in this order",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(2) > h3.title.is-3 > span",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(2) > h3.title.is-3 > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6479,7 +6589,7 @@
             "translationStrings": [
               {
                 "stringOrig": "You are ordering to:",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(1) > h3.title.is-5",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(1) > h3.title.is-5",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6530,7 +6640,7 @@
             "translationStrings": [
               {
                 "stringOrig": "With delivery to:",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(2) > h3.title.is-5",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(2) > h3.title.is-5",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6540,7 +6650,7 @@
               },
               {
                 "stringOrig": "With delivery to:",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(3) > h3.title.is-5",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(3) > h3.title.is-5",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6601,7 +6711,7 @@
             "translationStrings": [
               {
                 "stringOrig": "same as invoice address",
-                "selector": "#userOrderDetail > div.container.order-detail-data:nth-child(5) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(3) > div.summary-block",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-detail-data:nth-child(5) > div.columns.is-variable > div.column.is-6:nth-child(2) > div.columns.is-variable.is-2:nth-child(1) > div.column.is-6:nth-child(3) > div.summary-block",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6736,11 +6846,136 @@
             "translationStrings": [
               {
                 "stringOrig": "Your Invoice",
-                "selector": "#userOrderDetail > div.container.order-invoice-detail > h3.title.is-2.is-centered",
+                "selector": "#userOrderDetail > div:nth-child(1) > div.container.order-invoice-detail > h3.title.is-2.is-centered",
                 "translations": [
                   {
                     "langCode": "en",
                     "translation": "Your Invoice"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "To see order detail, you may need to",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "To see order detail, you may need to",
+                "selector": "#userOrderDetail > div.container > div.columns.is-variable.is-centered > div.column.is-8 > p:nth-child(2) > span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "To see order detail, you may need to"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Log in",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "Prihlásiť"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Log in",
+                "selector": "#userOrderDetail > div.container > div.columns.is-variable.is-centered > div.column.is-8 > p:nth-child(2) > router-link",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Log in"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/User.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Log in",
+                "selector": "#orderUser > form > div:nth-child(1) > div.columns:nth-child(1) > div.column.is-12 > router-link",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Log in"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/global/Header.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Log in",
+                "selector": "#header-login",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Log in"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "If you ordered without registration, you may need to check your email for activation message first.",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "If you ordered without registration, you may need to check your email for activation message first.",
+                "selector": "#userOrderDetail > div.container > div.columns.is-variable.is-centered > div.column.is-8 > p:nth-child(3)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "If you ordered without registration, you may need to check your email for activation message first."
                   }
                 ]
               }
@@ -6802,7 +7037,7 @@
             "translationStrings": [
               {
                 "stringOrig": "ID",
-                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable.is-8 > div.column.is-12 > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(1) > div.th-wrap",
+                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable > div.column.is-12 > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(1) > div.th-wrap",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6835,7 +7070,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Date",
-                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable.is-8 > div.column.is-12 > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(2) > div.th-wrap",
+                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable > div.column.is-12 > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(2) > div.th-wrap",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6868,7 +7103,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Status",
-                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable.is-8 > div.column.is-12 > div:nth-child(1) > div.columns.is-variable.is-8 > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(4) > div.th-wrap",
+                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable > div.column.is-12 > div:nth-child(1) > div.columns.is-variable > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(4) > div.th-wrap",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6901,7 +7136,7 @@
             "translationStrings": [
               {
                 "stringOrig": "You have no finished orders",
-                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable.is-8 > div.column.is-12 > div:nth-child(2) > p",
+                "selector": "#userOrderList > div.container:nth-child(2) > div.columns.is-variable > div.column.is-12 > div:nth-child(2) > p",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7719,7 +7954,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Cart",
-                "selector": "#navbarBasicExample > div.navbar-end > div.navbar-item.userCart > router-link.navbar-link.userCartLink > span:nth-child(1)",
+                "selector": "html > body > template > header.header > nav.navbar.is-fixed-top > div.container > div.navbar-menu > div.navbar-end > div.navbar-item.userCart > router-link.navbar-link.userCartLink > span:nth-child(1)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7752,7 +7987,7 @@
             "translationStrings": [
               {
                 "stringOrig": "User",
-                "selector": "#orderCart > div.container:nth-child(2) > div.columns.is-variable.is-8.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(1) > a > div.step-details > span.step-title",
+                "selector": "#orderCart > div.container:nth-child(2) > div.columns.is-variable.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(1) > a > div.step-details > span.step-title",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7785,7 +8020,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Delivery & Payment",
-                "selector": "#orderCart > div.container:nth-child(2) > div.columns.is-variable.is-8.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(2) > a > div.step-details > span.step-title",
+                "selector": "#orderCart > div.container:nth-child(2) > div.columns.is-variable.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(2) > a > div.step-details > span.step-title",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7818,11 +8053,95 @@
             "translationStrings": [
               {
                 "stringOrig": "Summary",
-                "selector": "#orderCart > div.container:nth-child(2) > div.columns.is-variable.is-8.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(3) > a > div.step-details > span.step-title",
+                "selector": "#orderCart > div.container:nth-child(2) > div.columns.is-variable.is-centered.orderProgressVisual > div.column.is-8 > div.b-steps > nav.steps > ul.step-items > li:nth-child(3) > a > div.step-details > span.step-title",
                 "translations": [
                   {
                     "langCode": "en",
                     "translation": "Summary"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Price/pcs",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/Cart.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Price/pcs",
+                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable:nth-child(1) > div.column.is-12 > div.b-table > div.table-wrapper > table.table.is-hoverable.is-striped.is-fullwidth > thead > tr > th:nth-child(3) > div.th-wrap.is-pulled-right",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Price/pcs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Products Without Tax",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/Cart.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Products Without Tax",
+                "selector": "#cart__products-notax > td.has-text-right:nth-child(2) > strong",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Products Without Tax"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Tax total",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/Cart.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Tax total",
+                "selector": "#cart__tax > td.has-text-right:nth-child(2) > strong",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Tax total"
                   }
                 ]
               }
@@ -7851,7 +8170,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Clear Cart",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable.is-8:nth-child(2) > div.column.is-12 > button.button.is-danger > span",
+                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(1) > div.columns.is-variable:nth-child(2) > div.column.is-12 > button.button.is-danger > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7884,7 +8203,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Your cart is empty",
-                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable.is-8 > div.column.is-6:nth-child(1) > div:nth-child(2) > h3.title.is-3 > span",
+                "selector": "#orderCart > div.container:nth-child(3) > div.columns.is-variable > div.column.is-6:nth-child(1) > div:nth-child(2) > h3.title.is-3 > span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7963,57 +8282,6 @@
         ]
       },
       {
-        "phrase": "Log in",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Prihlásiť"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/User.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Log in",
-                "selector": "#orderUser > form > div:nth-child(1) > div.columns:nth-child(1) > div.column.is-12 > router-link",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Log in"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/global/Header.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Log in",
-                "selector": "#header-login",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Log in"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "phrase": "Logged in as",
         "language": {
           "code": "en",
@@ -8034,11 +8302,39 @@
             "translationStrings": [
               {
                 "stringOrig": "Logged in as",
-                "selector": "#orderUser > form > div:nth-child(2) > span",
+                "selector": "#orderUser > form > div:nth-child(2) > span:nth-child(1)",
                 "translations": [
                   {
                     "langCode": "en",
                     "translation": "Logged in as"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Please check your email to verify your email",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/orders/User.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Please check your email to verify your email",
+                "selector": "#orderUser > form > div:nth-child(2) > span:nth-child(3) > span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Please check your email to verify your email"
                   }
                 ]
               }
@@ -8605,7 +8901,7 @@
             "translationStrings": [
               {
                 "stringOrig": "I agree to the",
-                "selector": "#summary > form > div.columns.is-variable.is-2:nth-child(4) > div.column.is-12 > div.field.confirm.has-text-centered > label.b-checkbox.checkbox > span.control-label",
+                "selector": "#summary > form > div.columns.is-variable.is-2:nth-child(4) > div.column.is-12 > div.field.confirm.has-text-centered > label.b-checkbox.checkbox > span:nth-child(3) > span.control-label",
                 "translations": [
                   {
                     "langCode": "en",
@@ -8638,7 +8934,7 @@
             "translationStrings": [
               {
                 "stringOrig": "terms and conditions",
-                "selector": "#summary > form > div.columns.is-variable.is-2:nth-child(4) > div.column.is-12 > div.field.confirm.has-text-centered > label.b-checkbox.checkbox > a",
+                "selector": "#summary > form > div.columns.is-variable.is-2:nth-child(4) > div.column.is-12 > div.field.confirm.has-text-centered > label.b-checkbox.checkbox > span:nth-child(3) > a",
                 "translations": [
                   {
                     "langCode": "en",
@@ -8816,6 +9112,62 @@
         ]
       },
       {
+        "phrase": "Menu",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/global/Footer.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Menu",
+                "selector": "html > body > template > footer.footer > div.container > div.columns.has-text-left > div.column.is-3:nth-child(3) > h6.title.is-6",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Menu"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Links",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Development/vue-js/stretchshop-front-vue/src/components/global/Footer.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Links",
+                "selector": "html > body > template > footer.footer > div.container > div.columns.has-text-left > div.column.is-3:nth-child(5) > h6.title.is-6",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Links"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "phrase": "Gallery",
         "language": {
           "code": "en",
@@ -8902,7 +9254,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Home",
-                "selector": "#navbarBasicExample > div.navbar-start:nth-child(2) > router-link.navbar-item.item-home",
+                "selector": "html > body > template > header.header > nav.navbar.is-fixed-top > div.container > div.navbar-menu > div.navbar-start:nth-child(2) > router-link.navbar-item.item-home",
                 "translations": [
                   {
                     "langCode": "en",
@@ -8935,7 +9287,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Info",
-                "selector": "#navbarBasicExample > div.navbar-start:nth-child(2) > router-link.navbar-item:nth-child(2)",
+                "selector": "html > body > template > header.header > nav.navbar.is-fixed-top > div.container > div.navbar-menu > div.navbar-start:nth-child(2) > router-link.navbar-item:nth-child(2)",
                 "translations": [
                   {
                     "langCode": "en",
@@ -8968,7 +9320,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Services",
-                "selector": "#navbarBasicExample > div.navbar-start:nth-child(2) > router-link.navbar-item:nth-child(4)",
+                "selector": "html > body > template > header.header > nav.navbar.is-fixed-top > div.container > div.navbar-menu > div.navbar-start:nth-child(2) > router-link.navbar-item:nth-child(4)",
                 "translations": [
                   {
                     "langCode": "en",

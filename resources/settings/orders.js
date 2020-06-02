@@ -11,7 +11,7 @@ module.exports = {
 	deliveryMethods: [
 		{
 			codename: "personaly",
-			type: "physical",
+			type: "physical", // use if cart has ALSO physical product
 			name: {
 				"en": "Personaly on Branch",
 				"sk": "Osobne na Pobočke"
@@ -19,13 +19,14 @@ module.exports = {
 			prices: [
 				{
 					"range": {"from": 0, "to": 1000000},
-					"price": 0
+					"price": 0,
+					"tax": 0.2
 				}
 			]
 		},
 		{
 			codename: "courier",
-			type: "physical",
+			type: "physical", // use if cart has ALSO physical product
 			name: {
 				"en": "Courier",
 				"sk": "Kuriér"
@@ -33,7 +34,8 @@ module.exports = {
 			prices: [
 				{
 					"range": {"from": 0, "to": 500},
-					"price": 5
+					"price": 5,
+					"tax": 0.2
 				},
 				{
 					"range": {"from": 500, "to": 1000000},
@@ -43,7 +45,7 @@ module.exports = {
 		},
 		{
 			codename: "download",
-			type: "digital",
+			type: "digital", // use if cart has ALSO physical product
 			name: {
 				"en": "Download",
 				"sk": "Stiahnuť"
@@ -51,7 +53,8 @@ module.exports = {
 			prices: [
 				{
 					"range": {"from": 0, "to": 500},
-					"price": 5
+					"price": 5,
+					"tax": 0.2
 				},
 				{
 					"range": {"from": 500, "to": 1000000},
@@ -63,7 +66,7 @@ module.exports = {
 	paymentMethods: [
 		{
 			codename: "cod",
-			type: "product",
+			type: "physical", // show if cart has ONLY the physical products
 			name: {
 				"en": "Cash On Delivery",
 				"sk": "Platba Pri Doručení"
@@ -71,15 +74,17 @@ module.exports = {
 			prices: [
 				{
 					"range": {"from": 0, "to": 500},
-					"price": 10
+					"price": 10,
+					"tax": 0.2
 				},
 				{
 					"range": {"from": 500, "to": 1000000},
-					"price": 2
+					"price": 2,
+					"tax": 0.2
 				}
 			]
 		},
-		{
+		{ // show if cart has any subtype of products
 			codename: "online_paypal_paypal",
 			name: {
 				"en": "Pay online with Paypal (Card, PayPal)",
@@ -88,7 +93,8 @@ module.exports = {
 			prices: [
 				{
 					"range": {"from": 0, "to": 500},
-					"price": 2
+					"price": 2,
+					"tax": 0.2
 				},
 				{
 					"range": {"from": 500, "to": 1000000},
