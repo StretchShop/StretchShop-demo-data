@@ -5,8 +5,17 @@ const glob = require("glob");
 
 const databaseName = "stretchshop_demo";
 
+// add authentification string if there are 4 arguments in query - ex. node db/demo_data.js user pwd
+let authPrefix = "";
+let authSuffix = "";
+let args = process.argv;
+if (args && args.length==4) {
+	authPrefix = args[2]+":"+args[3]+"@";
+	authSuffix = "?authMechanism=DEFAULT&authSource=admin";
+}
+
 // const url = "mongodb://user:pwd@localhost:27017/"+ databaseName +"?authMechanism=DEFAULT&authSource=admin";
-const url = "mongodb://localhost:27017/"+ databaseName +"";
+const url = "mongodb://"+authPrefix+"localhost:27017/"+ databaseName +""+ authSuffix;
 
 console.time("import");
 
