@@ -41,7 +41,7 @@
             "translationStrings": [
               {
                 "stringOrig": "In stock",
-                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div \u003e div.content \u003e p:nth-child(2) \u003e span",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div:nth-child(2) \u003e div.content \u003e p \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -207,7 +207,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Without Tax",
-                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div \u003e div.content \u003e div.columns \u003e div.column.is-6:nth-child(1) \u003e div.detail-price.is-size-8 \u003e span",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div:nth-child(2) \u003e div.content \u003e div.columns:nth-child(3) \u003e div.column.is-6:nth-child(1) \u003e div.detail-price.is-size-8 \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -291,7 +291,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Add to Cart",
-                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div \u003e div.content \u003e div.columns \u003e div.column.is-6:nth-child(2) \u003e div.columns \u003e div.column.is-9 \u003e button.button.add-to-cart.is-primary \u003e span",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div:nth-child(2) \u003e div.content \u003e div.columns:nth-child(3) \u003e div.column.is-6:nth-child(2) \u003e div.columns \u003e div.column.is-9 \u003e button.button.add-to-cart.is-primary \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -618,6 +618,24 @@
             ]
           },
           {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Type",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div:nth-child(2) \u003e div.content \u003e div.columns:nth-child(1) \u003e div.column.is-6:nth-child(1) \u003e p \u003e span:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Type"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
             "selector": "[translate]",
             "type": "text",
@@ -656,6 +674,75 @@
         ]
       },
       {
+        "phrase": "Subtype",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "Podtyp"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/CategoryNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subtype",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e label.label",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subtype"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subtype",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e label.label",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subtype"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/pages/PageNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subtype",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e label.label",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subtype"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "phrase": "",
         "language": {
           "code": "en",
@@ -669,16 +756,6 @@
             "type": "text",
             "blockName": "texts",
             "translationStrings": [
-              {
-                "stringOrig": "",
-                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(1) \u003e div.field \u003e div.control \u003e input.input",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": ""
-                  }
-                ]
-              },
               {
                 "stringOrig": "",
                 "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e div.control \u003e input.input",
@@ -787,16 +864,6 @@
             "translationStrings": [
               {
                 "stringOrig": "",
-                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(1) \u003e div.field \u003e div.control \u003e input.input",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": ""
-                  }
-                ]
-              },
-              {
-                "stringOrig": "",
                 "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e div.control \u003e input.input",
                 "translations": [
                   {
@@ -838,6 +905,36 @@
               {
                 "stringOrig": "",
                 "selector": "#contentHiddenProperties \u003e div.columns:nth-child(2) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.field \u003e div.control \u003e textarea.textarea",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": ""
+                  }
+                ]
+              },
+              {
+                "stringOrig": "",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(3) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.columns \u003e div.column.is-4:nth-child(1) \u003e div.field \u003e div.control \u003e input.input",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": ""
+                  }
+                ]
+              },
+              {
+                "stringOrig": "",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(3) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.columns \u003e div.column.is-4:nth-child(2) \u003e div.field \u003e div.control \u003e input.input",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": ""
+                  }
+                ]
+              },
+              {
+                "stringOrig": "",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(3) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.columns \u003e div.column.is-4:nth-child(3) \u003e div.field \u003e div.control \u003e input.input",
                 "translations": [
                   {
                     "langCode": "en",
@@ -1422,75 +1519,6 @@
                   {
                     "langCode": "en",
                     "translation": ""
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "phrase": "Subtype",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Podtyp"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/CategoryNewEdit.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Subtype",
-                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e label.label",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Subtype"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Subtype",
-                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e label.label",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Subtype"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/pages/PageNewEdit.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Subtype",
-                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(1) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-3:nth-child(2) \u003e div.field \u003e label.label",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Subtype"
                   }
                 ]
               }
@@ -2143,6 +2171,24 @@
             ]
           },
           {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Name",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(2) \u003e div.th-wrap",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Name"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
             "selector": "[translate]",
             "type": "text",
@@ -2482,6 +2528,24 @@
             ]
           },
           {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Total",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(4) \u003e div.th-wrap.is-pulled-right",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Total"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
             "selector": "[translate]",
             "type": "text",
@@ -2565,62 +2629,11 @@
             "translationStrings": [
               {
                 "stringOrig": "Order Code",
-                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div \u003e div.content \u003e p:nth-child(1) \u003e span",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div:nth-child(2) \u003e div.content \u003e div.columns:nth-child(1) \u003e div.column.is-6:nth-child(2) \u003e p \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
                     "translation": "Order Code"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "phrase": "Variations",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Variácie"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductDetail.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Variations",
-                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.product-descriptions.reversed-desktop \u003e div.column.is-5 \u003e div:nth-child(2) \u003e section \u003e b-collapse.card \u003e div.card-header \u003e p.card-header-title",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Variations"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Variations",
-                "selector": "#product-new-edit \u003e div.columns.product-descriptions.reversed-desktop \u003e div.column.is-5 \u003e div:nth-child(2) \u003e section \u003e b-collapse.card \u003e div.card-header \u003e p.card-header-title",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Variations"
                   }
                 ]
               }
@@ -2649,11 +2662,62 @@
             "translationStrings": [
               {
                 "stringOrig": "Requirements",
-                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.product-descriptions.reversed-desktop \u003e div.column.is-5 \u003e div.product-requirements \u003e h3.title.is-3 \u003e span",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.reversed \u003e div.column.is-5.data-main \u003e div.product-requirements \u003e h3.title.is-3 \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
                     "translation": "Requirements"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Variations",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "Variácie"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Variations",
+                "selector": "html \u003e body \u003e template \u003e div.container.product-detail \u003e div.columns.product-descriptions.reversed-desktop \u003e div.column.is-5 \u003e div \u003e section \u003e b-collapse.card \u003e div.card-header \u003e p.card-header-title",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Variations"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Variations",
+                "selector": "#product-new-edit \u003e div.columns.product-descriptions.reversed-desktop \u003e div.column.is-5 \u003e div:nth-child(2) \u003e section \u003e b-collapse.card \u003e div.card-header \u003e p.card-header-title",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Variations"
                   }
                 ]
               }
@@ -2832,6 +2896,90 @@
                   {
                     "langCode": "en",
                     "translation": "Variation Group Id"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Subscription Period",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subscription Period",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(3) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.columns \u003e div.column.is-4:nth-child(1) \u003e div.field \u003e label.label",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscription Period"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Subscription Duration",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subscription Duration",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(3) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.columns \u003e div.column.is-4:nth-child(2) \u003e div.field \u003e label.label",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscription Duration"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Subscription Cycles",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/products/ProductNewEdit.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subscription Cycles",
+                "selector": "#contentHiddenProperties \u003e div.columns:nth-child(3) \u003e div.column.is-12 \u003e div.columns \u003e div.column.is-6 \u003e div.columns \u003e div.column.is-4:nth-child(3) \u003e div.field \u003e label.label",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscription Cycles"
                   }
                 ]
               }
@@ -5130,6 +5278,24 @@
                 ]
               }
             ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Unauthorized",
+                "selector": "#userSubscriptionDetail \u003e div.container \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e h1.title.is-1",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Unauthorized"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -5697,6 +5863,233 @@
         ]
       },
       {
+        "phrase": "Your Subscriptions",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Your Subscriptions",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(1) \u003e div.columns \u003e div.column \u003e h1.title.is-1",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Your Subscriptions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "ID",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "ID"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "ID",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(1) \u003e div.th-wrap",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "ID"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "ID",
+                "selector": "#userOrderList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(1) \u003e div.th-wrap",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "ID"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Date",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "Dátum"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Date",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(3) \u003e div.th-wrap",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Date"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Date",
+                "selector": "#userOrderList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(2) \u003e div.th-wrap",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Date"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Status",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [
+          {
+            "langCode": "sk",
+            "translation": "Status"
+          }
+        ],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Status",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(5) \u003e div.th-wrap",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Status"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Status",
+                "selector": "#userOrderList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(4) \u003e div.th-wrap.is-pulled-right",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Status"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Status",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-settings \u003e ul \u003e li:nth-child(1) \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Status"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "You have no subscriptions",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptions.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "You have no subscriptions",
+                "selector": "#userSubscriptionList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(2) \u003e p",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "You have no subscriptions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "phrase": "Register",
         "language": {
           "code": "en",
@@ -6204,6 +6597,24 @@
                 ]
               }
             ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Created",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-dates \u003e ul \u003e li:nth-child(3) \u003e span:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Created"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -6294,7 +6705,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Your available actions",
-                "selector": "#userOrderDetail \u003e div:nth-child(1) \u003e div.container.order-detail-data:nth-child(4) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e span",
+                "selector": "#userOrderDetail \u003e div:nth-child(1) \u003e div.container.order-detail-data:nth-child(4) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e span \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6327,7 +6738,7 @@
             "translationStrings": [
               {
                 "stringOrig": "Pay order",
-                "selector": "#userOrderDetail \u003e div:nth-child(1) \u003e div.container.order-detail-data:nth-child(4) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(2) \u003e button.button \u003e span",
+                "selector": "#userOrderDetail \u003e div:nth-child(1) \u003e div.container.order-detail-data:nth-child(4) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e span \u003e div \u003e button.button \u003e span",
                 "translations": [
                   {
                     "langCode": "en",
@@ -6340,17 +6751,12 @@
         ]
       },
       {
-        "phrase": "none",
+        "phrase": "Subscriptions Approved",
         "language": {
           "code": "en",
           "lang": "en"
         },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "žiadne"
-          }
-        ],
+        "translates": [],
         "occurrences": [
           {
             "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
@@ -6359,12 +6765,40 @@
             "blockName": "texts",
             "translationStrings": [
               {
-                "stringOrig": "none",
-                "selector": "#order-detail--available-action--none",
+                "stringOrig": "Subscriptions Approved",
+                "selector": "#user-order-detail--subscription",
                 "translations": [
                   {
                     "langCode": "en",
-                    "translation": "none"
+                    "translation": "Subscriptions Approved"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Approve Subscription",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrderDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Approve Subscription",
+                "selector": "#userOrderDetail \u003e div:nth-child(1) \u003e div.container.order-detail-data:nth-child(4) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div \u003e div:nth-child(2) \u003e button.button.is-danger \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Approve Subscription"
                   }
                 ]
               }
@@ -7016,6 +7450,24 @@
                 ]
               }
             ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "To see order detail, you may need to",
+                "selector": "#userSubscriptionDetail \u003e div.container \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e p \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "To see order detail, you may need to"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -7041,6 +7493,24 @@
               {
                 "stringOrig": "Log in",
                 "selector": "#userOrderDetail \u003e div.container \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e p:nth-child(2) \u003e router-link",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Log in"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Log in",
+                "selector": "#userSubscriptionDetail \u003e div.container \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e p \u003e router-link",
                 "translations": [
                   {
                     "langCode": "en",
@@ -7122,17 +7592,12 @@
         ]
       },
       {
-        "phrase": "Order ID",
+        "phrase": "Your Orders",
         "language": {
           "code": "en",
           "lang": "en"
         },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "ID objednávky"
-          }
-        ],
+        "translates": [],
         "occurrences": [
           {
             "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
@@ -7141,111 +7606,12 @@
             "blockName": "texts",
             "translationStrings": [
               {
-                "stringOrig": "Order ID",
+                "stringOrig": "Your Orders",
                 "selector": "#userOrderList \u003e div.container:nth-child(1) \u003e div.columns \u003e div.column \u003e h1.title.is-1",
                 "translations": [
                   {
                     "langCode": "en",
-                    "translation": "Order ID"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "phrase": "ID",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "ID"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "ID",
-                "selector": "#userOrderList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(1) \u003e div.th-wrap",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "ID"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "phrase": "Date",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Dátum"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Date",
-                "selector": "#userOrderList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(2) \u003e div.th-wrap",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Date"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "phrase": "Status",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Status"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserOrders.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Status",
-                "selector": "#userOrderList \u003e div.container:nth-child(2) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div:nth-child(1) \u003e div.columns.is-variable \u003e div.column.is-12 \u003e div.b-table \u003e div.table-wrapper \u003e table.table.is-hoverable.is-striped.is-fullwidth \u003e thead \u003e tr \u003e th:nth-child(4) \u003e div.th-wrap",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Status"
+                    "translation": "Your Orders"
                   }
                 ]
               }
@@ -7411,6 +7777,566 @@
                   {
                     "langCode": "en",
                     "translation": "reset your password"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Subscriptions",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subscriptions",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container:nth-child(1) \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e nav.breadcrumb \u003e ul \u003e li:nth-child(1) \u003e router-link \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscriptions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/global/Header.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subscriptions",
+                "selector": "#header-subscriptions",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscriptions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Subscription",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Subscription",
+                "selector": "#subscription-breadcrumb",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscription"
+                  }
+                ]
+              },
+              {
+                "stringOrig": "Subscription",
+                "selector": "#subscription-detail-title",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Subscription"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "History",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "History",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(1) \u003e div \u003e h4.title.is-4",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "History"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Related order",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Related order",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(1) \u003e div \u003e ol \u003e li \u003e div:nth-child(2) \u003e div:nth-child(2) \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Related order"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Main info",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Main info",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e h4.title.is-4",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Main info"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Price \u0026 Period",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Price \u0026 Period",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-settings \u003e ul \u003e li:nth-child(2) \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Price \u0026 Period"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Cycles",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Cycles",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-settings \u003e ul \u003e li:nth-child(3) \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Cycles"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Infinity",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Infinity",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-settings \u003e ul \u003e li:nth-child(3) \u003e strong \u003e span:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Infinity"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Next payment",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Next payment",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-dates \u003e ul \u003e li:nth-child(1) \u003e span:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Next payment"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Last payment",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Last payment",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-dates \u003e ul \u003e li:nth-child(2) \u003e span:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Last payment"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Started",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Started",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-dates \u003e ul \u003e li:nth-child(4) \u003e span:nth-child(1)",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Started"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Original order",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Original order",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(1) \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Original order"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Available Actions",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Available Actions",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(2) \u003e h4.title.is-5",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Available Actions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Re-activate",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Re-activate",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(2) \u003e div \u003e button.button",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Re-activate"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Admin Actions",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Admin Actions",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(3) \u003e span",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Admin Actions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Cycle Paid",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Cycle Paid",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(3) \u003e div:nth-child(2) \u003e button.button",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Cycle Paid"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Mark next cycle as paid. For cases when payment system failed but customer paid other way.",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Mark next cycle as paid. For cases when payment system failed but customer paid other way.",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(3) \u003e div:nth-child(2) \u003e p.is-size-7.has-text-grey-dark",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Mark next cycle as paid. For cases when payment system failed but customer paid other way."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Suspend",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Suspend",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(3) \u003e div:nth-child(3) \u003e button.button",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Suspend"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "Suspends subscription and its payment. You receive e-mail when your subscription and related services are paused.",
+        "language": {
+          "code": "en",
+          "lang": "en"
+        },
+        "translates": [],
+        "occurrences": [
+          {
+            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/users/UserSubscriptionDetail.vue",
+            "selector": "[translate]",
+            "type": "text",
+            "blockName": "texts",
+            "translationStrings": [
+              {
+                "stringOrig": "Suspends subscription and its payment. You receive e-mail when your subscription and related services are paused.",
+                "selector": "#userSubscriptionDetail \u003e div:nth-child(1) \u003e div.container.subscription-detail-data \u003e div.columns.is-variable.is-centered \u003e div.column.is-8 \u003e div.columns.is-variable.is-centered \u003e div.column.is-6:nth-child(2) \u003e div.info.info-more \u003e ul \u003e li:nth-child(3) \u003e div:nth-child(3) \u003e p.is-size-7.has-text-grey-dark",
+                "translations": [
+                  {
+                    "langCode": "en",
+                    "translation": "Suspends subscription and its payment. You receive e-mail when your subscription and related services are paused."
                   }
                 ]
               }
@@ -8932,39 +9858,6 @@
                   {
                     "langCode": "en",
                     "translation": "Payment"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "phrase": "Renew my subscription",
-        "language": {
-          "code": "en",
-          "lang": "en"
-        },
-        "translates": [
-          {
-            "langCode": "sk",
-            "translation": "Obnoviť moje predplatné"
-          }
-        ],
-        "occurrences": [
-          {
-            "path": "/Users/marthol/Documents/GitHub/stretchshop-front-vue/src/components/orders/DeliveryPayment.vue",
-            "selector": "[translate]",
-            "type": "text",
-            "blockName": "texts",
-            "translationStrings": [
-              {
-                "stringOrig": "Renew my subscription",
-                "selector": "#orderDeliveryPayment \u003e form \u003e div.subscriptionBlock \u003e label \u003e span",
-                "translations": [
-                  {
-                    "langCode": "en",
-                    "translation": "Renew my subscription"
                   }
                 ]
               }
