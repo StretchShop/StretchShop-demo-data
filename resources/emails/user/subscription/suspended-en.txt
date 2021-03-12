@@ -1,0 +1,2 @@
+Subscription suspended TXT - Subscription ID: {{subscription._id}}
+Sent to {{email}}

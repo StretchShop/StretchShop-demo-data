@@ -1,0 +1,9 @@
+Dear user,
+
+we received information that our administrator {{admin.username}} 
+with email {{admin.email}} has logged in to perform actions in your 
+account.
+
+If this action is not expected, please contact us on {{support_email}}.
+
+Your team of  {{webname}}
