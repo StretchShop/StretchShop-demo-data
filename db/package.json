@@ -1,6 +1,6 @@
 {
   "name": "stretchshop-demo-data",
-  "version": "1.0.0",
+  "version": "0.6.3",
   "description": "import for stretchshop demo data",
   "main": "demo_data.js",
   "scripts": {

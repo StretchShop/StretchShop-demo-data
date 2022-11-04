@@ -1,0 +1,71 @@
+{
+  "invoiceData": {
+    "eshop": {
+      "numberCodePrefix": "5"
+    },
+    "company": {
+      "name": "StretchShop s.r.o.",
+      "address": {
+        "street": "Internátna 32",
+        "city": "Banská Bystrica",
+        "zip": "97404",
+        "country": "Slovakia",
+        "countryCode": "sk"
+      },
+      "orgId": "123456789",
+      "taxId": "9876543210",
+      "taxVatId": "SK9876543210",
+      "registration": "Okresný súd Banská Bystrica, Vložka číslo: 38180/S",
+      "account": {
+				"bank": "Bank Bank",
+				"iban": "SK 1234567890123456789012",
+				"swift": "BREXSKXY",
+				"number": "123456 - 1234567890 / 1234"
+			},
+      "contacts": {
+        "phone": "+012 987 654 321",
+        "email": "support@stretchshop.app",
+        "web": "https://stretchshop.app/"
+      }
+    }
+  },
+  "taxData": {
+    "global": {
+      "taxDecimal": 0.21,
+      "taxType": "VAT",
+      "taxTypes": [
+        "VAT",
+        "IT"
+      ]
+    }
+  },
+  "priceLevels": {
+    "defaultPriceSortValue": "price",
+    "validTypes": {
+      "userTypes": [
+        "user.partner",
+        "admin.partner"
+      ]
+    },
+    "discounts": {
+      "user.partner": {
+        "type": "percent",
+        "value": -5
+      },
+      "admin.partner": {
+        "type": "percent",
+        "value": -10
+      }
+    }
+  },
+  "sorting": {
+    "products": {
+      "default": "price"
+    }
+  },
+  "editableSettings": {
+    "core": true,
+    "translates": true,
+    "users": true
+  }
+}
