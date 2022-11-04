@@ -1,0 +1,77 @@
+{
+  "main": {
+    "items": [
+      {
+        "codename": "home",
+        "typeName": "--link",
+        "slugParams": "/",
+        "langs": {
+          "sk": {
+            "name": "Domov"
+          },
+          "en": {
+            "name": "Home"
+          }
+        }
+      },
+      {
+        "codename": "info",
+        "typeName": "pageDetailShort",
+        "slugParams": {
+          "slug": "info"
+        },
+        "langs": {
+          "sk": {
+            "name": "Info"
+          },
+          "en": {
+            "name": "Info"
+          }
+        }
+      },
+      {
+        "codename": "products",
+        "typeName": "productsHome",
+        "slugParams": null,
+        "langs": {
+          "sk": {
+            "name": "Produkty"
+          },
+          "en": {
+            "name": "Products"
+          }
+        }
+      },
+      {
+        "codename": "test",
+        "typeName": "--link",
+        "slugParams": "/",
+        "langs": {
+          "sk": {
+            "name": "Test SK"
+          },
+          "en": {
+            "name": "Test"
+          }
+        },
+        "text": "Test",
+        "items": [
+          {
+            "codename": "test-sub",
+            "typeName": "--link",
+            "slugParams": "/",
+            "langs": {
+              "sk": {
+                "name": "New Item SK - 20220509-185239"
+              },
+              "en": {
+                "name": "Test sub EN"
+              }
+            },
+            "text": "Test sub EN"
+          }
+        ]
+      }
+    ]
+  }
+}
