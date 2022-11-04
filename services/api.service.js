@@ -1,6 +1,6 @@
 "use strict";
 
-const origApi = require("stretchshop/services/api.service");
+const origApi = require("stretchshop/services/api/api.service");
 
 module.exports = {
 	name: "api",

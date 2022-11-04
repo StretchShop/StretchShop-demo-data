@@ -1,6 +1,6 @@
 "use strict";
 
-const origCart = require("stretchshop/services/cart.service");
+const origCart = require("stretchshop/services/cart/cart.service");
 
 module.exports = {
 	name: "cart",
