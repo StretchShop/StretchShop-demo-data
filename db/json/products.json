@@ -1,1 +1,3431 @@
-[{"externalId":"PEI0000001","orderCode":"POC0000001","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#1 EN","sk":"Product#1 SK"},"descriptionShort":{"en":"Product#1 Short description EN","sk":"Product#1 Short description SK"},"descriptionLong":{"en":"Product#1 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#1 This description can be much longer with more text inside - great for description in detail. SK"},"price":11,"tax":0.1,"stockAmount":8,"slug":"product-no1","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000001-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000002","orderCode":"POC0000002","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#2 EN","sk":"Product#2 SK"},"descriptionShort":{"en":"Product#2 Short description EN","sk":"Product#2 Short description SK"},"descriptionLong":{"en":"Product#2 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#2 This description can be much longer with more text inside - great for description in detail. SK"},"price":12,"tax":0.1,"stockAmount":9,"slug":"product-no2","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000002-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000003","orderCode":"POC0000003","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#3 EN","sk":"Product#3 SK"},"descriptionShort":{"en":"Product#3 Short description EN","sk":"Product#3 Short description SK"},"descriptionLong":{"en":"Product#3 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#3 This description can be much longer with more text inside - great for description in detail. SK"},"price":13,"tax":0.1,"stockAmount":10,"slug":"product-no3","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000003-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000004","orderCode":"POC0000004","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#4 EN","sk":"Product#4 SK"},"descriptionShort":{"en":"Product#4 Short description EN","sk":"Product#4 Short description SK"},"descriptionLong":{"en":"Product#4 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#4 This description can be much longer with more text inside - great for description in detail. SK"},"price":14,"tax":0.1,"stockAmount":11,"slug":"product-no4","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000004-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000005","orderCode":"POC0000005","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#5 EN","sk":"Product#5 SK"},"descriptionShort":{"en":"Product#5 Short description EN","sk":"Product#5 Short description SK"},"descriptionLong":{"en":"Product#5 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#5 This description can be much longer with more text inside - great for description in detail. SK"},"price":15,"tax":0.1,"stockAmount":12,"slug":"product-no5","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000005-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000006","orderCode":"POC0000006","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#6 EN","sk":"Product#6 SK"},"descriptionShort":{"en":"Product#6 Short description EN","sk":"Product#6 Short description SK"},"descriptionLong":{"en":"Product#6 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#6 This description can be much longer with more text inside - great for description in detail. SK"},"price":16,"tax":0.1,"stockAmount":13,"slug":"product-no6","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000006-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000007","orderCode":"POC0000007","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#7 EN","sk":"Product#7 SK"},"descriptionShort":{"en":"Product#7 Short description EN","sk":"Product#7 Short description SK"},"descriptionLong":{"en":"Product#7 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#7 This description can be much longer with more text inside - great for description in detail. SK"},"price":17,"tax":0.1,"stockAmount":14,"slug":"product-no7","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000007-223"},"categories":["category-l1-no1"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000008","orderCode":"POC0000008","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#8 EN","sk":"Product#8 SK"},"descriptionShort":{"en":"Product#8 Short description EN","sk":"Product#8 Short description SK"},"descriptionLong":{"en":"Product#8 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#8 This description can be much longer with more text inside - great for description in detail. SK"},"price":18,"tax":0.1,"stockAmount":15,"slug":"product-no8","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000008-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000009","orderCode":"POC0000009","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#9 EN","sk":"Product#9 SK"},"descriptionShort":{"en":"Product#9 Short description EN","sk":"Product#9 Short description SK"},"descriptionLong":{"en":"Product#9 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#9 This description can be much longer with more text inside - great for description in detail. SK"},"price":19,"tax":0.1,"stockAmount":16,"slug":"product-no9","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000009-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000010","orderCode":"POC0000010","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#10 EN","sk":"Product#10 SK"},"descriptionShort":{"en":"Product#10 Short description EN","sk":"Product#10 Short description SK"},"descriptionLong":{"en":"Product#10 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#10 This description can be much longer with more text inside - great for description in detail. SK"},"price":20,"tax":0.1,"stockAmount":17,"slug":"product-no10","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000010-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000011","orderCode":"POC0000011","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#11 EN","sk":"Product#11 SK"},"descriptionShort":{"en":"Product#11 Short description EN","sk":"Product#11 Short description SK"},"descriptionLong":{"en":"Product#11 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#11 This description can be much longer with more text inside - great for description in detail. SK"},"price":21,"tax":0.1,"stockAmount":18,"slug":"product-no11","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000011-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000012","orderCode":"POC0000012","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#12 EN","sk":"Product#12 SK"},"descriptionShort":{"en":"Product#12 Short description EN","sk":"Product#12 Short description SK"},"descriptionLong":{"en":"Product#12 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#12 This description can be much longer with more text inside - great for description in detail. SK"},"price":22,"tax":0.1,"stockAmount":19,"slug":"product-no12","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000012-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000013","orderCode":"POC0000013","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#13 EN","sk":"Product#13 SK"},"descriptionShort":{"en":"Product#13 Short description EN","sk":"Product#13 Short description SK"},"descriptionLong":{"en":"Product#13 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#13 This description can be much longer with more text inside - great for description in detail. SK"},"price":23,"tax":0.1,"stockAmount":20,"slug":"product-no13","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000013-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000014","orderCode":"POC0000014","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#14 EN","sk":"Product#14 SK"},"descriptionShort":{"en":"Product#14 Short description EN","sk":"Product#14 Short description SK"},"descriptionLong":{"en":"Product#14 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#14 This description can be much longer with more text inside - great for description in detail. SK"},"price":24,"tax":0.1,"stockAmount":21,"slug":"product-no14","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000014-223"},"categories":["category-l1-no1-category-l2-no2"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000015","orderCode":"POC0000015","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#15 EN","sk":"Product#15 SK"},"descriptionShort":{"en":"Product#15 Short description EN","sk":"Product#15 Short description SK"},"descriptionLong":{"en":"Product#15 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#15 This description can be much longer with more text inside - great for description in detail. SK"},"price":25,"tax":0.1,"stockAmount":22,"slug":"product-no15","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000015-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000016","orderCode":"POC0000016","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#16 EN","sk":"Product#16 SK"},"descriptionShort":{"en":"Product#16 Short description EN","sk":"Product#16 Short description SK"},"descriptionLong":{"en":"Product#16 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#16 This description can be much longer with more text inside - great for description in detail. SK"},"price":26,"tax":0.1,"stockAmount":23,"slug":"product-no16","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000016-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000017","orderCode":"POC0000017","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#17 EN","sk":"Product#17 SK"},"descriptionShort":{"en":"Product#17 Short description EN","sk":"Product#17 Short description SK"},"descriptionLong":{"en":"Product#17 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#17 This description can be much longer with more text inside - great for description in detail. SK"},"price":27,"tax":0.1,"stockAmount":24,"slug":"product-no17","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000017-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000018","orderCode":"POC0000018","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#18 EN","sk":"Product#18 SK"},"descriptionShort":{"en":"Product#18 Short description EN","sk":"Product#18 Short description SK"},"descriptionLong":{"en":"Product#18 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#18 This description can be much longer with more text inside - great for description in detail. SK"},"price":28,"tax":0.1,"stockAmount":25,"slug":"product-no18","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000018-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000019","orderCode":"POC0000019","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#19 EN","sk":"Product#19 SK"},"descriptionShort":{"en":"Product#19 Short description EN","sk":"Product#19 Short description SK"},"descriptionLong":{"en":"Product#19 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#19 This description can be much longer with more text inside - great for description in detail. SK"},"price":29,"tax":0.1,"stockAmount":26,"slug":"product-no19","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000019-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000020","orderCode":"POC0000020","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#20 EN","sk":"Product#20 SK"},"descriptionShort":{"en":"Product#20 Short description EN","sk":"Product#20 Short description SK"},"descriptionLong":{"en":"Product#20 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#20 This description can be much longer with more text inside - great for description in detail. SK"},"price":30,"tax":0.1,"stockAmount":27,"slug":"product-no20","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000020-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000021","orderCode":"POC0000021","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#21 EN","sk":"Product#21 SK"},"descriptionShort":{"en":"Product#21 Short description EN","sk":"Product#21 Short description SK"},"descriptionLong":{"en":"Product#21 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#21 This description can be much longer with more text inside - great for description in detail. SK"},"price":31,"tax":0.1,"stockAmount":28,"slug":"product-no21","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000021-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no3"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000022","orderCode":"POC0000022","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#22 EN","sk":"Product#22 SK"},"descriptionShort":{"en":"Product#22 Short description EN","sk":"Product#22 Short description SK"},"descriptionLong":{"en":"Product#22 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#22 This description can be much longer with more text inside - great for description in detail. SK"},"price":32,"tax":0.1,"stockAmount":29,"slug":"product-no22","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000022-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000023","orderCode":"POC0000023","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#23 EN","sk":"Product#23 SK"},"descriptionShort":{"en":"Product#23 Short description EN","sk":"Product#23 Short description SK"},"descriptionLong":{"en":"Product#23 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#23 This description can be much longer with more text inside - great for description in detail. SK"},"price":33,"tax":0.1,"stockAmount":30,"slug":"product-no23","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000023-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000024","orderCode":"POC0000024","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#24 EN","sk":"Product#24 SK"},"descriptionShort":{"en":"Product#24 Short description EN","sk":"Product#24 Short description SK"},"descriptionLong":{"en":"Product#24 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#24 This description can be much longer with more text inside - great for description in detail. SK"},"price":34,"tax":0.1,"stockAmount":31,"slug":"product-no24","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000024-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000025","orderCode":"POC0000025","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#25 EN","sk":"Product#25 SK"},"descriptionShort":{"en":"Product#25 Short description EN","sk":"Product#25 Short description SK"},"descriptionLong":{"en":"Product#25 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#25 This description can be much longer with more text inside - great for description in detail. SK"},"price":35,"tax":0.1,"stockAmount":32,"slug":"product-no25","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000025-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000026","orderCode":"POC0000026","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#26 EN","sk":"Product#26 SK"},"descriptionShort":{"en":"Product#26 Short description EN","sk":"Product#26 Short description SK"},"descriptionLong":{"en":"Product#26 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#26 This description can be much longer with more text inside - great for description in detail. SK"},"price":36,"tax":0.1,"stockAmount":33,"slug":"product-no26","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000026-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000027","orderCode":"POC0000027","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#27 EN","sk":"Product#27 SK"},"descriptionShort":{"en":"Product#27 Short description EN","sk":"Product#27 Short description SK"},"descriptionLong":{"en":"Product#27 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#27 This description can be much longer with more text inside - great for description in detail. SK"},"price":37,"tax":0.1,"stockAmount":34,"slug":"product-no27","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000027-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000028","orderCode":"POC0000028","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#28 EN","sk":"Product#28 SK"},"descriptionShort":{"en":"Product#28 Short description EN","sk":"Product#28 Short description SK"},"descriptionLong":{"en":"Product#28 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#28 This description can be much longer with more text inside - great for description in detail. SK"},"price":38,"tax":0.1,"stockAmount":35,"slug":"product-no28","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000028-223"},"categories":["category-l1-no1-category-l2-no2-category-l3-no4"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000029","orderCode":"POC0000029","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#29 EN","sk":"Product#29 SK"},"descriptionShort":{"en":"Product#29 Short description EN","sk":"Product#29 Short description SK"},"descriptionLong":{"en":"Product#29 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#29 This description can be much longer with more text inside - great for description in detail. SK"},"price":39,"tax":0.1,"stockAmount":36,"slug":"product-no29","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000029-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000030","orderCode":"POC0000030","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#30 EN","sk":"Product#30 SK"},"descriptionShort":{"en":"Product#30 Short description EN","sk":"Product#30 Short description SK"},"descriptionLong":{"en":"Product#30 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#30 This description can be much longer with more text inside - great for description in detail. SK"},"price":40,"tax":0.1,"stockAmount":37,"slug":"product-no30","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000030-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000031","orderCode":"POC0000031","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#31 EN","sk":"Product#31 SK"},"descriptionShort":{"en":"Product#31 Short description EN","sk":"Product#31 Short description SK"},"descriptionLong":{"en":"Product#31 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#31 This description can be much longer with more text inside - great for description in detail. SK"},"price":41,"tax":0.1,"stockAmount":38,"slug":"product-no31","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000031-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000032","orderCode":"POC0000032","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#32 EN","sk":"Product#32 SK"},"descriptionShort":{"en":"Product#32 Short description EN","sk":"Product#32 Short description SK"},"descriptionLong":{"en":"Product#32 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#32 This description can be much longer with more text inside - great for description in detail. SK"},"price":42,"tax":0.1,"stockAmount":39,"slug":"product-no32","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000032-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000033","orderCode":"POC0000033","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#33 EN","sk":"Product#33 SK"},"descriptionShort":{"en":"Product#33 Short description EN","sk":"Product#33 Short description SK"},"descriptionLong":{"en":"Product#33 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#33 This description can be much longer with more text inside - great for description in detail. SK"},"price":43,"tax":0.1,"stockAmount":40,"slug":"product-no33","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000033-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000034","orderCode":"POC0000034","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#34 EN","sk":"Product#34 SK"},"descriptionShort":{"en":"Product#34 Short description EN","sk":"Product#34 Short description SK"},"descriptionLong":{"en":"Product#34 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#34 This description can be much longer with more text inside - great for description in detail. SK"},"price":44,"tax":0.1,"stockAmount":41,"slug":"product-no34","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000034-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000035","orderCode":"POC0000035","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#35 EN","sk":"Product#35 SK"},"descriptionShort":{"en":"Product#35 Short description EN","sk":"Product#35 Short description SK"},"descriptionLong":{"en":"Product#35 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#35 This description can be much longer with more text inside - great for description in detail. SK"},"price":45,"tax":0.1,"stockAmount":42,"slug":"product-no35","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000035-223"},"categories":["category-l1-no1-category-l2-no5"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000036","orderCode":"POC0000036","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#36 EN","sk":"Product#36 SK"},"descriptionShort":{"en":"Product#36 Short description EN","sk":"Product#36 Short description SK"},"descriptionLong":{"en":"Product#36 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#36 This description can be much longer with more text inside - great for description in detail. SK"},"price":46,"tax":0.1,"stockAmount":43,"slug":"product-no36","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000036-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000037","orderCode":"POC0000037","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#37 EN","sk":"Product#37 SK"},"descriptionShort":{"en":"Product#37 Short description EN","sk":"Product#37 Short description SK"},"descriptionLong":{"en":"Product#37 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#37 This description can be much longer with more text inside - great for description in detail. SK"},"price":47,"tax":0.1,"stockAmount":44,"slug":"product-no37","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000037-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000038","orderCode":"POC0000038","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#38 EN","sk":"Product#38 SK"},"descriptionShort":{"en":"Product#38 Short description EN","sk":"Product#38 Short description SK"},"descriptionLong":{"en":"Product#38 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#38 This description can be much longer with more text inside - great for description in detail. SK"},"price":48,"tax":0.1,"stockAmount":45,"slug":"product-no38","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000038-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000039","orderCode":"POC0000039","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#39 EN","sk":"Product#39 SK"},"descriptionShort":{"en":"Product#39 Short description EN","sk":"Product#39 Short description SK"},"descriptionLong":{"en":"Product#39 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#39 This description can be much longer with more text inside - great for description in detail. SK"},"price":49,"tax":0.1,"stockAmount":46,"slug":"product-no39","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000039-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000040","orderCode":"POC0000040","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#40 EN","sk":"Product#40 SK"},"descriptionShort":{"en":"Product#40 Short description EN","sk":"Product#40 Short description SK"},"descriptionLong":{"en":"Product#40 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#40 This description can be much longer with more text inside - great for description in detail. SK"},"price":50,"tax":0.1,"stockAmount":47,"slug":"product-no40","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000040-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000041","orderCode":"POC0000041","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#41 EN","sk":"Product#41 SK"},"descriptionShort":{"en":"Product#41 Short description EN","sk":"Product#41 Short description SK"},"descriptionLong":{"en":"Product#41 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#41 This description can be much longer with more text inside - great for description in detail. SK"},"price":51,"tax":0.1,"stockAmount":48,"slug":"product-no41","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000041-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000042","orderCode":"POC0000042","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#42 EN","sk":"Product#42 SK"},"descriptionShort":{"en":"Product#42 Short description EN","sk":"Product#42 Short description SK"},"descriptionLong":{"en":"Product#42 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#42 This description can be much longer with more text inside - great for description in detail. SK"},"price":52,"tax":0.1,"stockAmount":49,"slug":"product-no42","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000042-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no6"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000043","orderCode":"POC0000043","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#43 EN","sk":"Product#43 SK"},"descriptionShort":{"en":"Product#43 Short description EN","sk":"Product#43 Short description SK"},"descriptionLong":{"en":"Product#43 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#43 This description can be much longer with more text inside - great for description in detail. SK"},"price":53,"tax":0.1,"stockAmount":50,"slug":"product-no43","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000043-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000044","orderCode":"POC0000044","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#44 EN","sk":"Product#44 SK"},"descriptionShort":{"en":"Product#44 Short description EN","sk":"Product#44 Short description SK"},"descriptionLong":{"en":"Product#44 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#44 This description can be much longer with more text inside - great for description in detail. SK"},"price":54,"tax":0.1,"stockAmount":51,"slug":"product-no44","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000044-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000045","orderCode":"POC0000045","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#45 EN","sk":"Product#45 SK"},"descriptionShort":{"en":"Product#45 Short description EN","sk":"Product#45 Short description SK"},"descriptionLong":{"en":"Product#45 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#45 This description can be much longer with more text inside - great for description in detail. SK"},"price":55,"tax":0.1,"stockAmount":52,"slug":"product-no45","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000045-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000046","orderCode":"POC0000046","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#46 EN","sk":"Product#46 SK"},"descriptionShort":{"en":"Product#46 Short description EN","sk":"Product#46 Short description SK"},"descriptionLong":{"en":"Product#46 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#46 This description can be much longer with more text inside - great for description in detail. SK"},"price":56,"tax":0.1,"stockAmount":53,"slug":"product-no46","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000046-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000047","orderCode":"POC0000047","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#47 EN","sk":"Product#47 SK"},"descriptionShort":{"en":"Product#47 Short description EN","sk":"Product#47 Short description SK"},"descriptionLong":{"en":"Product#47 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#47 This description can be much longer with more text inside - great for description in detail. SK"},"price":57,"tax":0.1,"stockAmount":54,"slug":"product-no47","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000047-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000048","orderCode":"POC0000048","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#48 EN","sk":"Product#48 SK"},"descriptionShort":{"en":"Product#48 Short description EN","sk":"Product#48 Short description SK"},"descriptionLong":{"en":"Product#48 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#48 This description can be much longer with more text inside - great for description in detail. SK"},"price":58,"tax":0.1,"stockAmount":55,"slug":"product-no48","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000048-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000049","orderCode":"POC0000049","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#49 EN","sk":"Product#49 SK"},"descriptionShort":{"en":"Product#49 Short description EN","sk":"Product#49 Short description SK"},"descriptionLong":{"en":"Product#49 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#49 This description can be much longer with more text inside - great for description in detail. SK"},"price":59,"tax":0.1,"stockAmount":56,"slug":"product-no49","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000049-223"},"categories":["category-l1-no1-category-l2-no5-category-l3-no7"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000050","orderCode":"POC0000050","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#50 EN","sk":"Product#50 SK"},"descriptionShort":{"en":"Product#50 Short description EN","sk":"Product#50 Short description SK"},"descriptionLong":{"en":"Product#50 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#50 This description can be much longer with more text inside - great for description in detail. SK"},"price":60,"tax":0.1,"stockAmount":57,"slug":"product-no50","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000050-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000051","orderCode":"POC0000051","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#51 EN","sk":"Product#51 SK"},"descriptionShort":{"en":"Product#51 Short description EN","sk":"Product#51 Short description SK"},"descriptionLong":{"en":"Product#51 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#51 This description can be much longer with more text inside - great for description in detail. SK"},"price":61,"tax":0.1,"stockAmount":58,"slug":"product-no51","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000051-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000052","orderCode":"POC0000052","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#52 EN","sk":"Product#52 SK"},"descriptionShort":{"en":"Product#52 Short description EN","sk":"Product#52 Short description SK"},"descriptionLong":{"en":"Product#52 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#52 This description can be much longer with more text inside - great for description in detail. SK"},"price":62,"tax":0.1,"stockAmount":59,"slug":"product-no52","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000052-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000053","orderCode":"POC0000053","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#53 EN","sk":"Product#53 SK"},"descriptionShort":{"en":"Product#53 Short description EN","sk":"Product#53 Short description SK"},"descriptionLong":{"en":"Product#53 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#53 This description can be much longer with more text inside - great for description in detail. SK"},"price":63,"tax":0.1,"stockAmount":60,"slug":"product-no53","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000053-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000054","orderCode":"POC0000054","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#54 EN","sk":"Product#54 SK"},"descriptionShort":{"en":"Product#54 Short description EN","sk":"Product#54 Short description SK"},"descriptionLong":{"en":"Product#54 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#54 This description can be much longer with more text inside - great for description in detail. SK"},"price":64,"tax":0.1,"stockAmount":61,"slug":"product-no54","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000054-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000055","orderCode":"POC0000055","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#55 EN","sk":"Product#55 SK"},"descriptionShort":{"en":"Product#55 Short description EN","sk":"Product#55 Short description SK"},"descriptionLong":{"en":"Product#55 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#55 This description can be much longer with more text inside - great for description in detail. SK"},"price":65,"tax":0.1,"stockAmount":62,"slug":"product-no55","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000055-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000056","orderCode":"POC0000056","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#56 EN","sk":"Product#56 SK"},"descriptionShort":{"en":"Product#56 Short description EN","sk":"Product#56 Short description SK"},"descriptionLong":{"en":"Product#56 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#56 This description can be much longer with more text inside - great for description in detail. SK"},"price":66,"tax":0.1,"stockAmount":63,"slug":"product-no56","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000056-223"},"categories":["category-l1-no8"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000057","orderCode":"POC0000057","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#57 EN","sk":"Product#57 SK"},"descriptionShort":{"en":"Product#57 Short description EN","sk":"Product#57 Short description SK"},"descriptionLong":{"en":"Product#57 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#57 This description can be much longer with more text inside - great for description in detail. SK"},"price":67,"tax":0.1,"stockAmount":64,"slug":"product-no57","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000057-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000058","orderCode":"POC0000058","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#58 EN","sk":"Product#58 SK"},"descriptionShort":{"en":"Product#58 Short description EN","sk":"Product#58 Short description SK"},"descriptionLong":{"en":"Product#58 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#58 This description can be much longer with more text inside - great for description in detail. SK"},"price":68,"tax":0.1,"stockAmount":65,"slug":"product-no58","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000058-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000059","orderCode":"POC0000059","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#59 EN","sk":"Product#59 SK"},"descriptionShort":{"en":"Product#59 Short description EN","sk":"Product#59 Short description SK"},"descriptionLong":{"en":"Product#59 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#59 This description can be much longer with more text inside - great for description in detail. SK"},"price":69,"tax":0.1,"stockAmount":66,"slug":"product-no59","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000059-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000060","orderCode":"POC0000060","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#60 EN","sk":"Product#60 SK"},"descriptionShort":{"en":"Product#60 Short description EN","sk":"Product#60 Short description SK"},"descriptionLong":{"en":"Product#60 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#60 This description can be much longer with more text inside - great for description in detail. SK"},"price":70,"tax":0.1,"stockAmount":67,"slug":"product-no60","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000060-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000061","orderCode":"POC0000061","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#61 EN","sk":"Product#61 SK"},"descriptionShort":{"en":"Product#61 Short description EN","sk":"Product#61 Short description SK"},"descriptionLong":{"en":"Product#61 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#61 This description can be much longer with more text inside - great for description in detail. SK"},"price":71,"tax":0.1,"stockAmount":68,"slug":"product-no61","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000061-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000062","orderCode":"POC0000062","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#62 EN","sk":"Product#62 SK"},"descriptionShort":{"en":"Product#62 Short description EN","sk":"Product#62 Short description SK"},"descriptionLong":{"en":"Product#62 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#62 This description can be much longer with more text inside - great for description in detail. SK"},"price":72,"tax":0.1,"stockAmount":69,"slug":"product-no62","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000062-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000063","orderCode":"POC0000063","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#63 EN","sk":"Product#63 SK"},"descriptionShort":{"en":"Product#63 Short description EN","sk":"Product#63 Short description SK"},"descriptionLong":{"en":"Product#63 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#63 This description can be much longer with more text inside - great for description in detail. SK"},"price":73,"tax":0.1,"stockAmount":70,"slug":"product-no63","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000063-223"},"categories":["category-l1-no8-category-l2-no9"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000064","orderCode":"POC0000064","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#64 EN","sk":"Product#64 SK"},"descriptionShort":{"en":"Product#64 Short description EN","sk":"Product#64 Short description SK"},"descriptionLong":{"en":"Product#64 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#64 This description can be much longer with more text inside - great for description in detail. SK"},"price":74,"tax":0.1,"stockAmount":71,"slug":"product-no64","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000064-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000065","orderCode":"POC0000065","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#65 EN","sk":"Product#65 SK"},"descriptionShort":{"en":"Product#65 Short description EN","sk":"Product#65 Short description SK"},"descriptionLong":{"en":"Product#65 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#65 This description can be much longer with more text inside - great for description in detail. SK"},"price":75,"tax":0.1,"stockAmount":72,"slug":"product-no65","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000065-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000066","orderCode":"POC0000066","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#66 EN","sk":"Product#66 SK"},"descriptionShort":{"en":"Product#66 Short description EN","sk":"Product#66 Short description SK"},"descriptionLong":{"en":"Product#66 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#66 This description can be much longer with more text inside - great for description in detail. SK"},"price":76,"tax":0.1,"stockAmount":73,"slug":"product-no66","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000066-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000067","orderCode":"POC0000067","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#67 EN","sk":"Product#67 SK"},"descriptionShort":{"en":"Product#67 Short description EN","sk":"Product#67 Short description SK"},"descriptionLong":{"en":"Product#67 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#67 This description can be much longer with more text inside - great for description in detail. SK"},"price":77,"tax":0.1,"stockAmount":74,"slug":"product-no67","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000067-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000068","orderCode":"POC0000068","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#68 EN","sk":"Product#68 SK"},"descriptionShort":{"en":"Product#68 Short description EN","sk":"Product#68 Short description SK"},"descriptionLong":{"en":"Product#68 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#68 This description can be much longer with more text inside - great for description in detail. SK"},"price":78,"tax":0.1,"stockAmount":75,"slug":"product-no68","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000068-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000069","orderCode":"POC0000069","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#69 EN","sk":"Product#69 SK"},"descriptionShort":{"en":"Product#69 Short description EN","sk":"Product#69 Short description SK"},"descriptionLong":{"en":"Product#69 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#69 This description can be much longer with more text inside - great for description in detail. SK"},"price":79,"tax":0.1,"stockAmount":76,"slug":"product-no69","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000069-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000070","orderCode":"POC0000070","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#70 EN","sk":"Product#70 SK"},"descriptionShort":{"en":"Product#70 Short description EN","sk":"Product#70 Short description SK"},"descriptionLong":{"en":"Product#70 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#70 This description can be much longer with more text inside - great for description in detail. SK"},"price":80,"tax":0.1,"stockAmount":77,"slug":"product-no70","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000070-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no10"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000071","orderCode":"POC0000071","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#71 EN","sk":"Product#71 SK"},"descriptionShort":{"en":"Product#71 Short description EN","sk":"Product#71 Short description SK"},"descriptionLong":{"en":"Product#71 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#71 This description can be much longer with more text inside - great for description in detail. SK"},"price":81,"tax":0.1,"stockAmount":78,"slug":"product-no71","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000071-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000072","orderCode":"POC0000072","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#72 EN","sk":"Product#72 SK"},"descriptionShort":{"en":"Product#72 Short description EN","sk":"Product#72 Short description SK"},"descriptionLong":{"en":"Product#72 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#72 This description can be much longer with more text inside - great for description in detail. SK"},"price":82,"tax":0.1,"stockAmount":79,"slug":"product-no72","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000072-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000073","orderCode":"POC0000073","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#73 EN","sk":"Product#73 SK"},"descriptionShort":{"en":"Product#73 Short description EN","sk":"Product#73 Short description SK"},"descriptionLong":{"en":"Product#73 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#73 This description can be much longer with more text inside - great for description in detail. SK"},"price":83,"tax":0.1,"stockAmount":80,"slug":"product-no73","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000073-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000074","orderCode":"POC0000074","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#74 EN","sk":"Product#74 SK"},"descriptionShort":{"en":"Product#74 Short description EN","sk":"Product#74 Short description SK"},"descriptionLong":{"en":"Product#74 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#74 This description can be much longer with more text inside - great for description in detail. SK"},"price":84,"tax":0.1,"stockAmount":81,"slug":"product-no74","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000074-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000075","orderCode":"POC0000075","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#75 EN","sk":"Product#75 SK"},"descriptionShort":{"en":"Product#75 Short description EN","sk":"Product#75 Short description SK"},"descriptionLong":{"en":"Product#75 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#75 This description can be much longer with more text inside - great for description in detail. SK"},"price":85,"tax":0.1,"stockAmount":82,"slug":"product-no75","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000075-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000076","orderCode":"POC0000076","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#76 EN","sk":"Product#76 SK"},"descriptionShort":{"en":"Product#76 Short description EN","sk":"Product#76 Short description SK"},"descriptionLong":{"en":"Product#76 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#76 This description can be much longer with more text inside - great for description in detail. SK"},"price":86,"tax":0.1,"stockAmount":83,"slug":"product-no76","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000076-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000077","orderCode":"POC0000077","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#77 EN","sk":"Product#77 SK"},"descriptionShort":{"en":"Product#77 Short description EN","sk":"Product#77 Short description SK"},"descriptionLong":{"en":"Product#77 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#77 This description can be much longer with more text inside - great for description in detail. SK"},"price":87,"tax":0.1,"stockAmount":84,"slug":"product-no77","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000077-223"},"categories":["category-l1-no8-category-l2-no9-category-l3-no11"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000078","orderCode":"POC0000078","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#78 EN","sk":"Product#78 SK"},"descriptionShort":{"en":"Product#78 Short description EN","sk":"Product#78 Short description SK"},"descriptionLong":{"en":"Product#78 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#78 This description can be much longer with more text inside - great for description in detail. SK"},"price":88,"tax":0.1,"stockAmount":85,"slug":"product-no78","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000078-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000079","orderCode":"POC0000079","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#79 EN","sk":"Product#79 SK"},"descriptionShort":{"en":"Product#79 Short description EN","sk":"Product#79 Short description SK"},"descriptionLong":{"en":"Product#79 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#79 This description can be much longer with more text inside - great for description in detail. SK"},"price":89,"tax":0.1,"stockAmount":86,"slug":"product-no79","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000079-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000080","orderCode":"POC0000080","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#80 EN","sk":"Product#80 SK"},"descriptionShort":{"en":"Product#80 Short description EN","sk":"Product#80 Short description SK"},"descriptionLong":{"en":"Product#80 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#80 This description can be much longer with more text inside - great for description in detail. SK"},"price":90,"tax":0.1,"stockAmount":87,"slug":"product-no80","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000080-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000081","orderCode":"POC0000081","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#81 EN","sk":"Product#81 SK"},"descriptionShort":{"en":"Product#81 Short description EN","sk":"Product#81 Short description SK"},"descriptionLong":{"en":"Product#81 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#81 This description can be much longer with more text inside - great for description in detail. SK"},"price":91,"tax":0.1,"stockAmount":88,"slug":"product-no81","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000081-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000082","orderCode":"POC0000082","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#82 EN","sk":"Product#82 SK"},"descriptionShort":{"en":"Product#82 Short description EN","sk":"Product#82 Short description SK"},"descriptionLong":{"en":"Product#82 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#82 This description can be much longer with more text inside - great for description in detail. SK"},"price":92,"tax":0.1,"stockAmount":89,"slug":"product-no82","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000082-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000083","orderCode":"POC0000083","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#83 EN","sk":"Product#83 SK"},"descriptionShort":{"en":"Product#83 Short description EN","sk":"Product#83 Short description SK"},"descriptionLong":{"en":"Product#83 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#83 This description can be much longer with more text inside - great for description in detail. SK"},"price":93,"tax":0.1,"stockAmount":90,"slug":"product-no83","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000083-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000084","orderCode":"POC0000084","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#84 EN","sk":"Product#84 SK"},"descriptionShort":{"en":"Product#84 Short description EN","sk":"Product#84 Short description SK"},"descriptionLong":{"en":"Product#84 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#84 This description can be much longer with more text inside - great for description in detail. SK"},"price":94,"tax":0.1,"stockAmount":91,"slug":"product-no84","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000084-223"},"categories":["category-l1-no8-category-l2-no12"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000085","orderCode":"POC0000085","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#85 EN","sk":"Product#85 SK"},"descriptionShort":{"en":"Product#85 Short description EN","sk":"Product#85 Short description SK"},"descriptionLong":{"en":"Product#85 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#85 This description can be much longer with more text inside - great for description in detail. SK"},"price":95,"tax":0.1,"stockAmount":92,"slug":"product-no85","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000085-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000086","orderCode":"POC0000086","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#86 EN","sk":"Product#86 SK"},"descriptionShort":{"en":"Product#86 Short description EN","sk":"Product#86 Short description SK"},"descriptionLong":{"en":"Product#86 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#86 This description can be much longer with more text inside - great for description in detail. SK"},"price":96,"tax":0.1,"stockAmount":93,"slug":"product-no86","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000086-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000087","orderCode":"POC0000087","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#87 EN","sk":"Product#87 SK"},"descriptionShort":{"en":"Product#87 Short description EN","sk":"Product#87 Short description SK"},"descriptionLong":{"en":"Product#87 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#87 This description can be much longer with more text inside - great for description in detail. SK"},"price":97,"tax":0.1,"stockAmount":94,"slug":"product-no87","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000087-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000088","orderCode":"POC0000088","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#88 EN","sk":"Product#88 SK"},"descriptionShort":{"en":"Product#88 Short description EN","sk":"Product#88 Short description SK"},"descriptionLong":{"en":"Product#88 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#88 This description can be much longer with more text inside - great for description in detail. SK"},"price":98,"tax":0.1,"stockAmount":95,"slug":"product-no88","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000088-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000089","orderCode":"POC0000089","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#89 EN","sk":"Product#89 SK"},"descriptionShort":{"en":"Product#89 Short description EN","sk":"Product#89 Short description SK"},"descriptionLong":{"en":"Product#89 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#89 This description can be much longer with more text inside - great for description in detail. SK"},"price":99,"tax":0.1,"stockAmount":96,"slug":"product-no89","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000089-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000090","orderCode":"POC0000090","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#90 EN","sk":"Product#90 SK"},"descriptionShort":{"en":"Product#90 Short description EN","sk":"Product#90 Short description SK"},"descriptionLong":{"en":"Product#90 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#90 This description can be much longer with more text inside - great for description in detail. SK"},"price":100,"tax":0.1,"stockAmount":97,"slug":"product-no90","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000090-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000091","orderCode":"POC0000091","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#91 EN","sk":"Product#91 SK"},"descriptionShort":{"en":"Product#91 Short description EN","sk":"Product#91 Short description SK"},"descriptionLong":{"en":"Product#91 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#91 This description can be much longer with more text inside - great for description in detail. SK"},"price":101,"tax":0.1,"stockAmount":98,"slug":"product-no91","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000091-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no13"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000092","orderCode":"POC0000092","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#92 EN","sk":"Product#92 SK"},"descriptionShort":{"en":"Product#92 Short description EN","sk":"Product#92 Short description SK"},"descriptionLong":{"en":"Product#92 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#92 This description can be much longer with more text inside - great for description in detail. SK"},"price":102,"tax":0.1,"stockAmount":99,"slug":"product-no92","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000092-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000093","orderCode":"POC0000093","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#93 EN","sk":"Product#93 SK"},"descriptionShort":{"en":"Product#93 Short description EN","sk":"Product#93 Short description SK"},"descriptionLong":{"en":"Product#93 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#93 This description can be much longer with more text inside - great for description in detail. SK"},"price":103,"tax":0.1,"stockAmount":100,"slug":"product-no93","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000093-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000094","orderCode":"POC0000094","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#94 EN","sk":"Product#94 SK"},"descriptionShort":{"en":"Product#94 Short description EN","sk":"Product#94 Short description SK"},"descriptionLong":{"en":"Product#94 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#94 This description can be much longer with more text inside - great for description in detail. SK"},"price":104,"tax":0.1,"stockAmount":101,"slug":"product-no94","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000094-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000095","orderCode":"POC0000095","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#95 EN","sk":"Product#95 SK"},"descriptionShort":{"en":"Product#95 Short description EN","sk":"Product#95 Short description SK"},"descriptionLong":{"en":"Product#95 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#95 This description can be much longer with more text inside - great for description in detail. SK"},"price":105,"tax":0.1,"stockAmount":102,"slug":"product-no95","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000095-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000096","orderCode":"POC0000096","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#96 EN","sk":"Product#96 SK"},"descriptionShort":{"en":"Product#96 Short description EN","sk":"Product#96 Short description SK"},"descriptionLong":{"en":"Product#96 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#96 This description can be much longer with more text inside - great for description in detail. SK"},"price":106,"tax":0.1,"stockAmount":103,"slug":"product-no96","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000096-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000097","orderCode":"POC0000097","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#97 EN","sk":"Product#97 SK"},"descriptionShort":{"en":"Product#97 Short description EN","sk":"Product#97 Short description SK"},"descriptionLong":{"en":"Product#97 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#97 This description can be much longer with more text inside - great for description in detail. SK"},"price":107,"tax":0.1,"stockAmount":104,"slug":"product-no97","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000097-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}},{"externalId":"PEI0000098","orderCode":"POC0000098","variationGroupId":"","publisher":"admin@example.tld","type":"product","subtype":"physical","name":{"en":"Product#98 EN","sk":"Product#98 SK"},"descriptionShort":{"en":"Product#98 Short description EN","sk":"Product#98 Short description SK"},"descriptionLong":{"en":"Product#98 This description can be much longer with more text inside - great for description in detail. EN","sk":"Product#98 This description can be much longer with more text inside - great for description in detail. SK"},"price":108,"tax":0.1,"stockAmount":105,"slug":"product-no98","properties":{"year":"2032","author":["Marcel Z\u00fabrik"],"pages":102,"ISBN":"MS029-0000098-223"},"categories":["category-l1-no8-category-l2-no12-category-l3-no14"],"dates":{"dateCreated":null,"dateUpdated":null,"dateSynced":null}}]
+[{
+  "externalId": "PEI0000001",
+  "orderCode": "POC0000001",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#1 EN",
+    "sk": "Product#1 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#1 Short description EN",
+    "sk": "Product#1 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#1 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#1 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 11,
+  "tax": 0.1,
+  "stockAmount": 8,
+  "slug": "product-no1",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000001-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000002",
+  "orderCode": "POC0000002",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#2 EN",
+    "sk": "Product#2 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#2 Short description EN",
+    "sk": "Product#2 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#2 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#2 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 12,
+  "tax": 0.1,
+  "stockAmount": 9,
+  "slug": "product-no2",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000002-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000003",
+  "orderCode": "POC0000003",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#3 EN",
+    "sk": "Product#3 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#3 Short description EN",
+    "sk": "Product#3 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#3 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#3 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 13,
+  "tax": 0.1,
+  "stockAmount": 10,
+  "slug": "product-no3",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000003-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000004",
+  "orderCode": "POC0000004",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#4 EN",
+    "sk": "Product#4 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#4 Short description EN",
+    "sk": "Product#4 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#4 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#4 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 14,
+  "tax": 0.1,
+  "stockAmount": 11,
+  "slug": "product-no4",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000004-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000005",
+  "orderCode": "POC0000005",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#5 EN",
+    "sk": "Product#5 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#5 Short description EN",
+    "sk": "Product#5 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#5 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#5 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 15,
+  "tax": 0.1,
+  "stockAmount": 12,
+  "slug": "product-no5",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000005-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000006",
+  "orderCode": "POC0000006",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#6 EN",
+    "sk": "Product#6 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#6 Short description EN",
+    "sk": "Product#6 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#6 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#6 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 16,
+  "tax": 0.1,
+  "stockAmount": 13,
+  "slug": "product-no6",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000006-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000007",
+  "orderCode": "POC0000007",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#7 EN",
+    "sk": "Product#7 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#7 Short description EN",
+    "sk": "Product#7 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#7 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#7 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 17,
+  "tax": 0.1,
+  "stockAmount": 14,
+  "slug": "product-no7",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000007-223"
+  },
+  "categories": ["category-l1-no1"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000008",
+  "orderCode": "POC0000008",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#8 EN",
+    "sk": "Product#8 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#8 Short description EN",
+    "sk": "Product#8 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#8 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#8 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 18,
+  "tax": 0.1,
+  "stockAmount": 15,
+  "slug": "product-no8",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000008-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000009",
+  "orderCode": "POC0000009",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#9 EN",
+    "sk": "Product#9 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#9 Short description EN",
+    "sk": "Product#9 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#9 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#9 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 19,
+  "tax": 0.1,
+  "stockAmount": 16,
+  "slug": "product-no9",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000009-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000010",
+  "orderCode": "POC0000010",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#10 EN",
+    "sk": "Product#10 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#10 Short description EN",
+    "sk": "Product#10 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#10 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#10 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 20,
+  "tax": 0.1,
+  "stockAmount": 17,
+  "slug": "product-no10",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000010-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000011",
+  "orderCode": "POC0000011",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#11 EN",
+    "sk": "Product#11 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#11 Short description EN",
+    "sk": "Product#11 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#11 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#11 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 21,
+  "tax": 0.1,
+  "stockAmount": 18,
+  "slug": "product-no11",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000011-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000012",
+  "orderCode": "POC0000012",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#12 EN",
+    "sk": "Product#12 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#12 Short description EN",
+    "sk": "Product#12 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#12 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#12 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 22,
+  "tax": 0.1,
+  "stockAmount": 19,
+  "slug": "product-no12",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000012-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000013",
+  "orderCode": "POC0000013",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#13 EN",
+    "sk": "Product#13 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#13 Short description EN",
+    "sk": "Product#13 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#13 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#13 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 23,
+  "tax": 0.1,
+  "stockAmount": 20,
+  "slug": "product-no13",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000013-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000014",
+  "orderCode": "POC0000014",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#14 EN",
+    "sk": "Product#14 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#14 Short description EN",
+    "sk": "Product#14 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#14 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#14 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 24,
+  "tax": 0.1,
+  "stockAmount": 21,
+  "slug": "product-no14",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000014-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000015",
+  "orderCode": "POC0000015",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#15 EN",
+    "sk": "Product#15 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#15 Short description EN",
+    "sk": "Product#15 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#15 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#15 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 25,
+  "tax": 0.1,
+  "stockAmount": 22,
+  "slug": "product-no15",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000015-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000016",
+  "orderCode": "POC0000016",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#16 EN",
+    "sk": "Product#16 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#16 Short description EN",
+    "sk": "Product#16 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#16 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#16 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 26,
+  "tax": 0.1,
+  "stockAmount": 23,
+  "slug": "product-no16",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000016-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000017",
+  "orderCode": "POC0000017",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#17 EN",
+    "sk": "Product#17 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#17 Short description EN",
+    "sk": "Product#17 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#17 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#17 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 27,
+  "tax": 0.1,
+  "stockAmount": 24,
+  "slug": "product-no17",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000017-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000018",
+  "orderCode": "POC0000018",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#18 EN",
+    "sk": "Product#18 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#18 Short description EN",
+    "sk": "Product#18 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#18 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#18 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 28,
+  "tax": 0.1,
+  "stockAmount": 25,
+  "slug": "product-no18",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000018-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000019",
+  "orderCode": "POC0000019",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#19 EN",
+    "sk": "Product#19 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#19 Short description EN",
+    "sk": "Product#19 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#19 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#19 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 29,
+  "tax": 0.1,
+  "stockAmount": 26,
+  "slug": "product-no19",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000019-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000020",
+  "orderCode": "POC0000020",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#20 EN",
+    "sk": "Product#20 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#20 Short description EN",
+    "sk": "Product#20 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#20 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#20 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 30,
+  "tax": 0.1,
+  "stockAmount": 27,
+  "slug": "product-no20",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000020-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000021",
+  "orderCode": "POC0000021",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#21 EN",
+    "sk": "Product#21 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#21 Short description EN",
+    "sk": "Product#21 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#21 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#21 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 31,
+  "tax": 0.1,
+  "stockAmount": 28,
+  "slug": "product-no21",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000021-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no3"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000022",
+  "orderCode": "POC0000022",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#22 EN",
+    "sk": "Product#22 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#22 Short description EN",
+    "sk": "Product#22 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#22 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#22 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 32,
+  "tax": 0.1,
+  "stockAmount": 29,
+  "slug": "product-no22",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000022-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000023",
+  "orderCode": "POC0000023",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#23 EN",
+    "sk": "Product#23 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#23 Short description EN",
+    "sk": "Product#23 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#23 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#23 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 33,
+  "tax": 0.1,
+  "stockAmount": 30,
+  "slug": "product-no23",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000023-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000024",
+  "orderCode": "POC0000024",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#24 EN",
+    "sk": "Product#24 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#24 Short description EN",
+    "sk": "Product#24 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#24 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#24 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 34,
+  "tax": 0.1,
+  "stockAmount": 31,
+  "slug": "product-no24",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000024-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000025",
+  "orderCode": "POC0000025",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#25 EN",
+    "sk": "Product#25 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#25 Short description EN",
+    "sk": "Product#25 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#25 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#25 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 35,
+  "tax": 0.1,
+  "stockAmount": 32,
+  "slug": "product-no25",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000025-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000026",
+  "orderCode": "POC0000026",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#26 EN",
+    "sk": "Product#26 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#26 Short description EN",
+    "sk": "Product#26 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#26 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#26 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 36,
+  "tax": 0.1,
+  "stockAmount": 33,
+  "slug": "product-no26",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000026-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000027",
+  "orderCode": "POC0000027",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#27 EN",
+    "sk": "Product#27 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#27 Short description EN",
+    "sk": "Product#27 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#27 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#27 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 37,
+  "tax": 0.1,
+  "stockAmount": 34,
+  "slug": "product-no27",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000027-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000028",
+  "orderCode": "POC0000028",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#28 EN",
+    "sk": "Product#28 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#28 Short description EN",
+    "sk": "Product#28 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#28 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#28 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 38,
+  "tax": 0.1,
+  "stockAmount": 35,
+  "slug": "product-no28",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000028-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no2-category-l3-no4"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000029",
+  "orderCode": "POC0000029",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#29 EN",
+    "sk": "Product#29 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#29 Short description EN",
+    "sk": "Product#29 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#29 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#29 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 39,
+  "tax": 0.1,
+  "stockAmount": 36,
+  "slug": "product-no29",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000029-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000030",
+  "orderCode": "POC0000030",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#30 EN",
+    "sk": "Product#30 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#30 Short description EN",
+    "sk": "Product#30 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#30 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#30 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 40,
+  "tax": 0.1,
+  "stockAmount": 37,
+  "slug": "product-no30",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000030-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000031",
+  "orderCode": "POC0000031",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#31 EN",
+    "sk": "Product#31 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#31 Short description EN",
+    "sk": "Product#31 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#31 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#31 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 41,
+  "tax": 0.1,
+  "stockAmount": 38,
+  "slug": "product-no31",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000031-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000032",
+  "orderCode": "POC0000032",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#32 EN",
+    "sk": "Product#32 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#32 Short description EN",
+    "sk": "Product#32 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#32 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#32 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 42,
+  "tax": 0.1,
+  "stockAmount": 39,
+  "slug": "product-no32",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000032-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000033",
+  "orderCode": "POC0000033",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#33 EN",
+    "sk": "Product#33 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#33 Short description EN",
+    "sk": "Product#33 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#33 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#33 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 43,
+  "tax": 0.1,
+  "stockAmount": 40,
+  "slug": "product-no33",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000033-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000034",
+  "orderCode": "POC0000034",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#34 EN",
+    "sk": "Product#34 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#34 Short description EN",
+    "sk": "Product#34 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#34 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#34 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 44,
+  "tax": 0.1,
+  "stockAmount": 41,
+  "slug": "product-no34",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000034-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000035",
+  "orderCode": "POC0000035",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#35 EN",
+    "sk": "Product#35 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#35 Short description EN",
+    "sk": "Product#35 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#35 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#35 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 45,
+  "tax": 0.1,
+  "stockAmount": 42,
+  "slug": "product-no35",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000035-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000036",
+  "orderCode": "POC0000036",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#36 EN",
+    "sk": "Product#36 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#36 Short description EN",
+    "sk": "Product#36 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#36 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#36 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 46,
+  "tax": 0.1,
+  "stockAmount": 43,
+  "slug": "product-no36",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000036-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000037",
+  "orderCode": "POC0000037",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#37 EN",
+    "sk": "Product#37 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#37 Short description EN",
+    "sk": "Product#37 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#37 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#37 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 47,
+  "tax": 0.1,
+  "stockAmount": 44,
+  "slug": "product-no37",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000037-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000038",
+  "orderCode": "POC0000038",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#38 EN",
+    "sk": "Product#38 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#38 Short description EN",
+    "sk": "Product#38 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#38 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#38 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 48,
+  "tax": 0.1,
+  "stockAmount": 45,
+  "slug": "product-no38",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000038-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000039",
+  "orderCode": "POC0000039",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#39 EN",
+    "sk": "Product#39 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#39 Short description EN",
+    "sk": "Product#39 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#39 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#39 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 49,
+  "tax": 0.1,
+  "stockAmount": 46,
+  "slug": "product-no39",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000039-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000040",
+  "orderCode": "POC0000040",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#40 EN",
+    "sk": "Product#40 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#40 Short description EN",
+    "sk": "Product#40 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#40 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#40 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 50,
+  "tax": 0.1,
+  "stockAmount": 47,
+  "slug": "product-no40",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000040-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000041",
+  "orderCode": "POC0000041",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#41 EN",
+    "sk": "Product#41 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#41 Short description EN",
+    "sk": "Product#41 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#41 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#41 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 51,
+  "tax": 0.1,
+  "stockAmount": 48,
+  "slug": "product-no41",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000041-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000042",
+  "orderCode": "POC0000042",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#42 EN",
+    "sk": "Product#42 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#42 Short description EN",
+    "sk": "Product#42 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#42 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#42 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 52,
+  "tax": 0.1,
+  "stockAmount": 49,
+  "slug": "product-no42",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000042-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no6"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000043",
+  "orderCode": "POC0000043",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#43 EN",
+    "sk": "Product#43 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#43 Short description EN",
+    "sk": "Product#43 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#43 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#43 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 53,
+  "tax": 0.1,
+  "stockAmount": 50,
+  "slug": "product-no43",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000043-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000044",
+  "orderCode": "POC0000044",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#44 EN",
+    "sk": "Product#44 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#44 Short description EN",
+    "sk": "Product#44 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#44 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#44 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 54,
+  "tax": 0.1,
+  "stockAmount": 51,
+  "slug": "product-no44",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000044-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000045",
+  "orderCode": "POC0000045",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#45 EN",
+    "sk": "Product#45 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#45 Short description EN",
+    "sk": "Product#45 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#45 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#45 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 55,
+  "tax": 0.1,
+  "stockAmount": 52,
+  "slug": "product-no45",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000045-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000046",
+  "orderCode": "POC0000046",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#46 EN",
+    "sk": "Product#46 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#46 Short description EN",
+    "sk": "Product#46 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#46 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#46 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 56,
+  "tax": 0.1,
+  "stockAmount": 53,
+  "slug": "product-no46",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000046-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000047",
+  "orderCode": "POC0000047",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#47 EN",
+    "sk": "Product#47 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#47 Short description EN",
+    "sk": "Product#47 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#47 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#47 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 57,
+  "tax": 0.1,
+  "stockAmount": 54,
+  "slug": "product-no47",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000047-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000048",
+  "orderCode": "POC0000048",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#48 EN",
+    "sk": "Product#48 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#48 Short description EN",
+    "sk": "Product#48 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#48 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#48 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 58,
+  "tax": 0.1,
+  "stockAmount": 55,
+  "slug": "product-no48",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000048-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000049",
+  "orderCode": "POC0000049",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#49 EN",
+    "sk": "Product#49 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#49 Short description EN",
+    "sk": "Product#49 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#49 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#49 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 59,
+  "tax": 0.1,
+  "stockAmount": 56,
+  "slug": "product-no49",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000049-223"
+  },
+  "categories": ["category-l1-no1-category-l2-no5-category-l3-no7"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000050",
+  "orderCode": "POC0000050",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#50 EN",
+    "sk": "Product#50 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#50 Short description EN",
+    "sk": "Product#50 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#50 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#50 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 60,
+  "tax": 0.1,
+  "stockAmount": 57,
+  "slug": "product-no50",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000050-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000051",
+  "orderCode": "POC0000051",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#51 EN",
+    "sk": "Product#51 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#51 Short description EN",
+    "sk": "Product#51 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#51 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#51 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 61,
+  "tax": 0.1,
+  "stockAmount": 58,
+  "slug": "product-no51",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000051-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000052",
+  "orderCode": "POC0000052",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#52 EN",
+    "sk": "Product#52 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#52 Short description EN",
+    "sk": "Product#52 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#52 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#52 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 62,
+  "tax": 0.1,
+  "stockAmount": 59,
+  "slug": "product-no52",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000052-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000053",
+  "orderCode": "POC0000053",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#53 EN",
+    "sk": "Product#53 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#53 Short description EN",
+    "sk": "Product#53 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#53 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#53 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 63,
+  "tax": 0.1,
+  "stockAmount": 60,
+  "slug": "product-no53",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000053-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000054",
+  "orderCode": "POC0000054",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#54 EN",
+    "sk": "Product#54 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#54 Short description EN",
+    "sk": "Product#54 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#54 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#54 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 64,
+  "tax": 0.1,
+  "stockAmount": 61,
+  "slug": "product-no54",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000054-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000055",
+  "orderCode": "POC0000055",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#55 EN",
+    "sk": "Product#55 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#55 Short description EN",
+    "sk": "Product#55 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#55 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#55 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 65,
+  "tax": 0.1,
+  "stockAmount": 62,
+  "slug": "product-no55",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000055-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000056",
+  "orderCode": "POC0000056",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#56 EN",
+    "sk": "Product#56 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#56 Short description EN",
+    "sk": "Product#56 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#56 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#56 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 66,
+  "tax": 0.1,
+  "stockAmount": 63,
+  "slug": "product-no56",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000056-223"
+  },
+  "categories": ["category-l1-no8"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000057",
+  "orderCode": "POC0000057",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#57 EN",
+    "sk": "Product#57 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#57 Short description EN",
+    "sk": "Product#57 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#57 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#57 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 67,
+  "tax": 0.1,
+  "stockAmount": 64,
+  "slug": "product-no57",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000057-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000058",
+  "orderCode": "POC0000058",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#58 EN",
+    "sk": "Product#58 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#58 Short description EN",
+    "sk": "Product#58 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#58 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#58 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 68,
+  "tax": 0.1,
+  "stockAmount": 65,
+  "slug": "product-no58",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000058-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000059",
+  "orderCode": "POC0000059",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#59 EN",
+    "sk": "Product#59 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#59 Short description EN",
+    "sk": "Product#59 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#59 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#59 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 69,
+  "tax": 0.1,
+  "stockAmount": 66,
+  "slug": "product-no59",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000059-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000060",
+  "orderCode": "POC0000060",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#60 EN",
+    "sk": "Product#60 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#60 Short description EN",
+    "sk": "Product#60 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#60 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#60 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 70,
+  "tax": 0.1,
+  "stockAmount": 67,
+  "slug": "product-no60",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000060-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000061",
+  "orderCode": "POC0000061",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#61 EN",
+    "sk": "Product#61 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#61 Short description EN",
+    "sk": "Product#61 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#61 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#61 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 71,
+  "tax": 0.1,
+  "stockAmount": 68,
+  "slug": "product-no61",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000061-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000062",
+  "orderCode": "POC0000062",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#62 EN",
+    "sk": "Product#62 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#62 Short description EN",
+    "sk": "Product#62 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#62 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#62 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 72,
+  "tax": 0.1,
+  "stockAmount": 69,
+  "slug": "product-no62",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000062-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000063",
+  "orderCode": "POC0000063",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#63 EN",
+    "sk": "Product#63 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#63 Short description EN",
+    "sk": "Product#63 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#63 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#63 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 73,
+  "tax": 0.1,
+  "stockAmount": 70,
+  "slug": "product-no63",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000063-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000064",
+  "orderCode": "POC0000064",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#64 EN",
+    "sk": "Product#64 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#64 Short description EN",
+    "sk": "Product#64 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#64 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#64 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 74,
+  "tax": 0.1,
+  "stockAmount": 71,
+  "slug": "product-no64",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000064-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000065",
+  "orderCode": "POC0000065",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#65 EN",
+    "sk": "Product#65 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#65 Short description EN",
+    "sk": "Product#65 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#65 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#65 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 75,
+  "tax": 0.1,
+  "stockAmount": 72,
+  "slug": "product-no65",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000065-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000066",
+  "orderCode": "POC0000066",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#66 EN",
+    "sk": "Product#66 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#66 Short description EN",
+    "sk": "Product#66 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#66 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#66 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 76,
+  "tax": 0.1,
+  "stockAmount": 73,
+  "slug": "product-no66",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000066-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000067",
+  "orderCode": "POC0000067",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#67 EN",
+    "sk": "Product#67 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#67 Short description EN",
+    "sk": "Product#67 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#67 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#67 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 77,
+  "tax": 0.1,
+  "stockAmount": 74,
+  "slug": "product-no67",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000067-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000068",
+  "orderCode": "POC0000068",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#68 EN",
+    "sk": "Product#68 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#68 Short description EN",
+    "sk": "Product#68 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#68 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#68 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 78,
+  "tax": 0.1,
+  "stockAmount": 75,
+  "slug": "product-no68",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000068-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000069",
+  "orderCode": "POC0000069",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#69 EN",
+    "sk": "Product#69 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#69 Short description EN",
+    "sk": "Product#69 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#69 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#69 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 79,
+  "tax": 0.1,
+  "stockAmount": 76,
+  "slug": "product-no69",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000069-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000070",
+  "orderCode": "POC0000070",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#70 EN",
+    "sk": "Product#70 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#70 Short description EN",
+    "sk": "Product#70 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#70 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#70 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 80,
+  "tax": 0.1,
+  "stockAmount": 77,
+  "slug": "product-no70",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000070-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no10"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000071",
+  "orderCode": "POC0000071",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#71 EN",
+    "sk": "Product#71 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#71 Short description EN",
+    "sk": "Product#71 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#71 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#71 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 81,
+  "tax": 0.1,
+  "stockAmount": 78,
+  "slug": "product-no71",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000071-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000072",
+  "orderCode": "POC0000072",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#72 EN",
+    "sk": "Product#72 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#72 Short description EN",
+    "sk": "Product#72 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#72 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#72 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 82,
+  "tax": 0.1,
+  "stockAmount": 79,
+  "slug": "product-no72",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000072-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000073",
+  "orderCode": "POC0000073",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#73 EN",
+    "sk": "Product#73 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#73 Short description EN",
+    "sk": "Product#73 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#73 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#73 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 83,
+  "tax": 0.1,
+  "stockAmount": 80,
+  "slug": "product-no73",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000073-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000074",
+  "orderCode": "POC0000074",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#74 EN",
+    "sk": "Product#74 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#74 Short description EN",
+    "sk": "Product#74 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#74 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#74 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 84,
+  "tax": 0.1,
+  "stockAmount": 81,
+  "slug": "product-no74",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000074-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000075",
+  "orderCode": "POC0000075",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#75 EN",
+    "sk": "Product#75 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#75 Short description EN",
+    "sk": "Product#75 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#75 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#75 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 85,
+  "tax": 0.1,
+  "stockAmount": 82,
+  "slug": "product-no75",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000075-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000076",
+  "orderCode": "POC0000076",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#76 EN",
+    "sk": "Product#76 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#76 Short description EN",
+    "sk": "Product#76 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#76 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#76 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 86,
+  "tax": 0.1,
+  "stockAmount": 83,
+  "slug": "product-no76",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000076-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000077",
+  "orderCode": "POC0000077",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#77 EN",
+    "sk": "Product#77 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#77 Short description EN",
+    "sk": "Product#77 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#77 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#77 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 87,
+  "tax": 0.1,
+  "stockAmount": 84,
+  "slug": "product-no77",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000077-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no9-category-l3-no11"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000078",
+  "orderCode": "POC0000078",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#78 EN",
+    "sk": "Product#78 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#78 Short description EN",
+    "sk": "Product#78 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#78 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#78 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 88,
+  "tax": 0.1,
+  "stockAmount": 85,
+  "slug": "product-no78",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000078-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000079",
+  "orderCode": "POC0000079",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#79 EN",
+    "sk": "Product#79 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#79 Short description EN",
+    "sk": "Product#79 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#79 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#79 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 89,
+  "tax": 0.1,
+  "stockAmount": 86,
+  "slug": "product-no79",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000079-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000080",
+  "orderCode": "POC0000080",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#80 EN",
+    "sk": "Product#80 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#80 Short description EN",
+    "sk": "Product#80 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#80 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#80 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 90,
+  "tax": 0.1,
+  "stockAmount": 87,
+  "slug": "product-no80",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000080-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000081",
+  "orderCode": "POC0000081",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#81 EN",
+    "sk": "Product#81 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#81 Short description EN",
+    "sk": "Product#81 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#81 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#81 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 91,
+  "tax": 0.1,
+  "stockAmount": 88,
+  "slug": "product-no81",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000081-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000082",
+  "orderCode": "POC0000082",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#82 EN",
+    "sk": "Product#82 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#82 Short description EN",
+    "sk": "Product#82 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#82 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#82 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 92,
+  "tax": 0.1,
+  "stockAmount": 89,
+  "slug": "product-no82",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000082-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000083",
+  "orderCode": "POC0000083",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#83 EN",
+    "sk": "Product#83 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#83 Short description EN",
+    "sk": "Product#83 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#83 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#83 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 93,
+  "tax": 0.1,
+  "stockAmount": 90,
+  "slug": "product-no83",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000083-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000084",
+  "orderCode": "POC0000084",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#84 EN",
+    "sk": "Product#84 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#84 Short description EN",
+    "sk": "Product#84 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#84 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#84 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 94,
+  "tax": 0.1,
+  "stockAmount": 91,
+  "slug": "product-no84",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000084-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000085",
+  "orderCode": "POC0000085",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#85 EN",
+    "sk": "Product#85 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#85 Short description EN",
+    "sk": "Product#85 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#85 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#85 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 95,
+  "tax": 0.1,
+  "stockAmount": 92,
+  "slug": "product-no85",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000085-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000086",
+  "orderCode": "POC0000086",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#86 EN",
+    "sk": "Product#86 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#86 Short description EN",
+    "sk": "Product#86 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#86 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#86 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 96,
+  "tax": 0.1,
+  "stockAmount": 93,
+  "slug": "product-no86",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000086-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000087",
+  "orderCode": "POC0000087",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#87 EN",
+    "sk": "Product#87 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#87 Short description EN",
+    "sk": "Product#87 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#87 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#87 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 97,
+  "tax": 0.1,
+  "stockAmount": 94,
+  "slug": "product-no87",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000087-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000088",
+  "orderCode": "POC0000088",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#88 EN",
+    "sk": "Product#88 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#88 Short description EN",
+    "sk": "Product#88 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#88 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#88 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 98,
+  "tax": 0.1,
+  "stockAmount": 95,
+  "slug": "product-no88",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000088-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000089",
+  "orderCode": "POC0000089",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#89 EN",
+    "sk": "Product#89 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#89 Short description EN",
+    "sk": "Product#89 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#89 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#89 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 99,
+  "tax": 0.1,
+  "stockAmount": 96,
+  "slug": "product-no89",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000089-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000090",
+  "orderCode": "POC0000090",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#90 EN",
+    "sk": "Product#90 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#90 Short description EN",
+    "sk": "Product#90 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#90 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#90 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 100,
+  "tax": 0.1,
+  "stockAmount": 97,
+  "slug": "product-no90",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000090-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000091",
+  "orderCode": "POC0000091",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#91 EN",
+    "sk": "Product#91 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#91 Short description EN",
+    "sk": "Product#91 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#91 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#91 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 101,
+  "tax": 0.1,
+  "stockAmount": 98,
+  "slug": "product-no91",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000091-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no13"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000092",
+  "orderCode": "POC0000092",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#92 EN",
+    "sk": "Product#92 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#92 Short description EN",
+    "sk": "Product#92 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#92 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#92 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 102,
+  "tax": 0.1,
+  "stockAmount": 99,
+  "slug": "product-no92",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000092-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000093",
+  "orderCode": "POC0000093",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#93 EN",
+    "sk": "Product#93 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#93 Short description EN",
+    "sk": "Product#93 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#93 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#93 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 103,
+  "tax": 0.1,
+  "stockAmount": 100,
+  "slug": "product-no93",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000093-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000094",
+  "orderCode": "POC0000094",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#94 EN",
+    "sk": "Product#94 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#94 Short description EN",
+    "sk": "Product#94 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#94 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#94 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 104,
+  "tax": 0.1,
+  "stockAmount": 101,
+  "slug": "product-no94",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000094-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000095",
+  "orderCode": "POC0000095",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#95 EN",
+    "sk": "Product#95 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#95 Short description EN",
+    "sk": "Product#95 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#95 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#95 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 105,
+  "tax": 0.1,
+  "stockAmount": 102,
+  "slug": "product-no95",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000095-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000096",
+  "orderCode": "POC0000096",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#96 EN",
+    "sk": "Product#96 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#96 Short description EN",
+    "sk": "Product#96 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#96 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#96 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 106,
+  "tax": 0.1,
+  "stockAmount": 103,
+  "slug": "product-no96",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000096-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000097",
+  "orderCode": "POC0000097",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#97 EN",
+    "sk": "Product#97 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#97 Short description EN",
+    "sk": "Product#97 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#97 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#97 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 107,
+  "tax": 0.1,
+  "stockAmount": 104,
+  "slug": "product-no97",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000097-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}, {
+  "externalId": "PEI0000098",
+  "orderCode": "POC0000098",
+  "variationGroupId": "",
+  "publisher": "admin@example.tld",
+  "type": "product",
+  "subtype": "physical",
+  "name": {
+    "en": "Product#98 EN",
+    "sk": "Product#98 SK"
+  },
+  "descriptionShort": {
+    "en": "Product#98 Short description EN",
+    "sk": "Product#98 Short description SK"
+  },
+  "descriptionLong": {
+    "en": "Product#98 This description can be much longer with more text inside - great for description in detail. EN",
+    "sk": "Product#98 This description can be much longer with more text inside - great for description in detail. SK"
+  },
+  "price": 108,
+  "tax": 0.1,
+  "stockAmount": 105,
+  "slug": "product-no98",
+  "properties": {
+    "year": "2032",
+    "author": ["Marcel Z\u00fabrik"],
+    "pages": 102,
+    "ISBN": "MS029-0000098-223"
+  },
+  "categories": ["category-l1-no8-category-l2-no12-category-l3-no14"],
+  "dates": {
+    "dateCreated": null,
+    "dateUpdated": null,
+    "dateSynced": null
+  }
+}]
