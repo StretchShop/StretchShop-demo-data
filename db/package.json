@@ -16,6 +16,6 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "glob": "^7.1.6",
-    "mongodb": "^3.4.1"
+    "mongodb": "^3.7.4"
   }
 }
