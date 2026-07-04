@@ -1,1 +1,0 @@
-import{R as e}from"./index-C2d7SX1c.js";function t(t,n={}){return e(`subscription/list`,t,n)}function n(t,n={}){return e(`/subscription/suspend/`+t,{},{timeout:1e4,...n})}function r(t,n={}){return e(`/subscription/reactivate/`+t,{},{timeout:1e4,...n})}export{r as n,n as r,t};
