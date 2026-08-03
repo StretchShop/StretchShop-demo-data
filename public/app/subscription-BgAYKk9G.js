@@ -1,1 +1,0 @@
-import{r as e}from"./request-CURZO57a.js";function t(t,n={}){return e(`subscription/list`,t,{tokenize:!0,...n})}function n(t,n={}){return e(`/subscription/suspend/`+t,{},{timeout:1e4,tokenize:!0,...n})}function r(t,n={}){return e(`/subscription/reactivate/`+t,{},{timeout:1e4,tokenize:!0,...n})}export{r as n,n as r,t};
