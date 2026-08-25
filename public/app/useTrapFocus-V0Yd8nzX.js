@@ -1,0 +1,11 @@
+import{St as e}from"./stores-C5FJ-q_Y.js";function t(t){let n=e(t);return n?n.querySelectorAll(`a[href]:not([tabindex="-1"]),
+                                 area[href],
+                                 input:not([disabled]):not([type="hidden"]),
+                                 select:not([disabled]),
+                                 textarea:not([disabled]),
+                                 button:not([disabled]),
+                                 iframe,
+                                 object,
+                                 embed,
+                                 *[tabindex]:not([tabindex="-1"]):not([disabled]),
+                                 *[contenteditable]`):[]}function n(){let e=null;function n(t,n){n?(t.focus({preventScroll:!0}),typeof e==`function`&&t.addEventListener(`keydown`,e)):typeof e==`function`&&t.removeEventListener(`keydown`,e)}return{vTrapFocus:{mounted:(r,{value:i})=>{e=e=>{let n=e.target;if(!n)return;let i=t(r);if(!i?.length){e.preventDefault();return}let a=i[0],o=i[i.length-1];n===a&&e.shiftKey&&e.key===`Tab`?(e.preventDefault(),o.focus()):n===o&&!e.shiftKey&&e.key===`Tab`&&(e.preventDefault(),a.focus())},i&&n(r,i)},beforeUnmount:t=>{n(t,!1),e=null},updated:(e,{value:t,oldValue:r})=>{t!==r&&n(e,t)}}}}export{n as t};

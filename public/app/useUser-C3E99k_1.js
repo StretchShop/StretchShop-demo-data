@@ -1,0 +1,1 @@
+import{a as e,s as t}from"./stores-C5FJ-q_Y.js";var n=(e,t)=>{let n=e.__vccOpts||e;for(let[e,r]of t)n[e]=r;return n};function r(){let n=e(),{logged:r,profile:i,superadmined:a,email:o,remember:s,avatar:c,isLoggedIn:l,isAdmin:u}=t(n);return{userStore:n,logged:r,profile:i,superadmined:a,guestEmail:o,remember:s,avatar:c,isLoggedIn:l,isAdmin:u}}export{n,r as t};
