@@ -1,1 +1,10 @@
-{}
+{
+  "title": {
+    "en": "StretchShop demo",
+    "sk": "StretchShop demo"
+  },
+  "description": {
+    "en": "Sample homepage content for StretchShop demos.",
+    "sk": "Ukážkový obsah homepage pre demá StretchShop."
+  }
+}

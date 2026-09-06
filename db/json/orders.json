@@ -1,0 +1,95 @@
+[
+  {
+    "externalId": "DEMO-ORDER-001",
+    "externalCode": "SS-DEMO-001",
+    "status": "paid",
+    "user": {
+      "id": null,
+      "externalId": null,
+      "username": "DemoBuyer",
+      "email": "buyer@example.tld"
+    },
+    "ip": "127.0.0.1",
+    "dates": {
+      "dateCreated": "2024-06-01T10:00:00.000Z",
+      "dateChanged": "2024-06-01T10:05:00.000Z",
+      "dateSent": null,
+      "datePaid": "2024-06-01T10:05:00.000Z",
+      "dateExpeded": null,
+      "userConfirmation": "2024-06-01T10:04:00.000Z"
+    },
+    "lang": {
+      "code": "en",
+      "longCode": "en-US",
+      "name": "English"
+    },
+    "country": {
+      "code": "sk",
+      "name": "Slovakia"
+    },
+    "addresses": {
+      "invoiceAddress": {
+        "type": "invoice",
+        "email": "buyer@example.tld",
+        "nameFirst": "Demo",
+        "nameLast": "Buyer",
+        "street": "Buyer Street 2",
+        "street2": "",
+        "zip": "81101",
+        "city": "Bratislava",
+        "country": "sk",
+        "phone": "+421911000002",
+        "state": ""
+      },
+      "deliveryAddress": null
+    },
+    "prices": {
+      "currency": {
+        "code": "EUR",
+        "ratio": 1,
+        "symbol": "€"
+      },
+      "priceTotal": 13.99,
+      "priceTotalNoTax": 11.66,
+      "priceItems": 11.99,
+      "priceItemsNoTax": 9.99,
+      "priceTaxTotal": 2.33,
+      "priceDelivery": 0,
+      "pricePayment": 2
+    },
+    "items": [
+      {
+        "orderCode": "POC0000099",
+        "type": "product",
+        "subtype": "digital",
+        "name": {
+          "en": "Demo Ebook EN",
+          "sk": "Demo Ebook SK"
+        },
+        "price": 9.99,
+        "amount": 1,
+        "tax": 0.2
+      }
+    ],
+    "data": {
+      "deliveryData": {
+        "codename": {
+          "physical": null,
+          "digital": {
+            "value": "download",
+            "price": 0
+          }
+        }
+      },
+      "paymentData": {
+        "codename": "online_stripe",
+        "price": 2
+      },
+      "couponData": null
+    },
+    "notes": {
+      "customerNote": "Demo paid order for admin UI.",
+      "sellerNote": null
+    }
+  }
+]

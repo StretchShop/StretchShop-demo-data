@@ -13,6 +13,12 @@
 							},
 							"en":{
 								 "name":"About us"
+							},
+							"de":{
+								 "name":"Über uns"
+							},
+							"es":{
+								 "name":"Sobre nosotros"
 							}
 					 }
 				},
@@ -28,6 +34,12 @@
 							},
 							"en":{
 								 "name":"Terms and Conditions"
+							},
+							"de":{
+								 "name":"Allgemeine Geschäftsbedingungen"
+							},
+							"es":{
+								 "name":"Términos y condiciones"
 							}
 					 }
 				},
@@ -43,6 +55,12 @@
 							},
 							"en":{
 								 "name":"Return Policy"
+							},
+							"de":{
+								 "name":"Rückgaberichtlinie"
+							},
+							"es":{
+								 "name":"Política de devoluciones"
 							}
 					 }
 				},
@@ -58,6 +76,12 @@
 							},
 							"en":{
 								 "name":"Delivery and Payment"
+							},
+							"de":{
+								 "name":"Lieferung und Zahlung"
+							},
+							"es":{
+								 "name":"Entrega y pago"
 							}
 					 }
 				}
@@ -68,12 +92,18 @@
 				{
 					 "codename":"github",
 					 "typeName":"--link",
-					 "slugParams":"https://github.com/Wradgio/StretchShop",
+					 "slugParams":"https://github.com/StretchShop/StretchShop",
 					 "langs":{
 							"sk":{
 								 "name":"GitHub"
 							},
 							"en":{
+								 "name":"GitHub"
+							},
+							"de":{
+								 "name":"GitHub"
+							},
+							"es":{
 								 "name":"GitHub"
 							}
 					 }
@@ -88,18 +118,30 @@
 							},
 							"en":{
 								 "name":"Facebook"
+							},
+							"de":{
+								 "name":"Facebook"
+							},
+							"es":{
+								 "name":"Facebook"
 							}
 					 }
 				},
 				{
 					 "codename":"linkedin",
 					 "typeName":"--link",
-					 "slugParams":"https://facebook.com/StretchShop",
+					 "slugParams":"https://www.linkedin.com/company/stretchshop",
 					 "langs":{
 							"sk":{
 								 "name":"LinkedIn"
 							},
 							"en":{
+								 "name":"LinkedIn"
+							},
+							"de":{
+								 "name":"LinkedIn"
+							},
+							"es":{
 								 "name":"LinkedIn"
 							}
 					 }

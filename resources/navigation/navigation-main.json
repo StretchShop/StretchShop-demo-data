@@ -11,6 +11,12 @@
           },
           "en": {
             "name": "Home"
+          },
+          "de": {
+            "name": "Startseite"
+          },
+          "es": {
+            "name": "Inicio"
           }
         }
       },
@@ -26,6 +32,12 @@
           },
           "en": {
             "name": "Info"
+          },
+          "de": {
+            "name": "Info"
+          },
+          "es": {
+            "name": "Info"
           }
         }
       },
@@ -39,6 +51,12 @@
           },
           "en": {
             "name": "Products"
+          },
+          "de": {
+            "name": "Produkte"
+          },
+          "es": {
+            "name": "Productos"
           }
         }
       },
@@ -51,6 +69,12 @@
             "name": "Test SK"
           },
           "en": {
+            "name": "Test"
+          },
+          "de": {
+            "name": "Test"
+          },
+          "es": {
             "name": "Test"
           }
         },
@@ -66,6 +90,12 @@
               },
               "en": {
                 "name": "Test sub EN"
+              },
+              "de": {
+                "name": "Test Untermenü DE"
+              },
+              "es": {
+                "name": "Test sub ES"
               }
             },
             "text": "Test sub EN"

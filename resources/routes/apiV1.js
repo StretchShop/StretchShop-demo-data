@@ -1,11 +1,28 @@
 "use strict";
 
-let cookie = require("cookie");
+const { stringifySetCookie } = require("cookie");
+const SettingsMixin = require("./../../mixins/settings.mixin");
+
+function handleUpload(req, res) {
+	try {
+		const result = this.processUpload(req, res);
+		if (result && typeof result.catch === "function") {
+			result.catch((err) => {
+				this.logger.error("upload handler ERROR", err);
+				this.respondUploadError(res, 400, "Upload failed");
+			});
+		}
+	} catch (err) {
+		this.logger.error("upload handler ERROR", err);
+		this.respondUploadError(res, 400, "Upload failed");
+	}
+}
+
 
 module.exports = {
 	path: "/api/v1",
 
-	authorization: true,
+	authentication: true,
 
 	aliases: {
 		// core data
@@ -26,8 +43,13 @@ module.exports = {
 		"PUT /user": "users.updateUser",
 		"POST /user/verify": "users.verifyHash",
 		"POST /user/reset": "users.resetPassword",
-		"POST /user/image": function (req, res) {
-			this.processUpload(req, res);
+		"POST /user/impersonate": "users.loginAs",
+		"POST /user/impersonate/restore": "users.restoreAdmin",
+		// openapi:false — custom handlers are not action names; without this,
+		// moleculer-auto-openapi logs ERROR on every startup/hot-reload.
+		"POST /user/image": {
+			openapi: false,
+			handler: handleUpload
 		},
 		"DELETE /user/image/:type/:code/:image": "users.deleteUserImage",
 		"DELETE /user/profile": "users.deleteProfile",
@@ -38,7 +60,6 @@ module.exports = {
 		"POST /cart": "cart.updateCartItemAmount",
 		"PUT /cart": "cart.add",
 		"DELETE /cart": "cart.delete",
-		"POST /cart/find": "cart.find",
 		"DELETE /cart/:itemId": "cart.delete",
 		"DELETE /cart/:itemId/:amount": "cart.delete",
 
@@ -46,14 +67,15 @@ module.exports = {
 		"GET /products/:category": "products.productsListGet",
 		"POST /products/:category": "products.productsList", // needed for category with filter url
 		"POST /products/filter": "products.findWithCount",
-		"POST /products/find": "products.find",
+		"POST /products/find": "products.findAdmin",
 		"GET /products/:category/detail/:product": "products.detail",
 		"PUT /products": "products.import",
 		"DELETE /products": "products.delete",
 		"POST /products/count": "products.count",
 		"GET /products/rebuildpl/:id": "products.rebuildProductPriceLevels",
-		"POST /products/upload/:orderCode/:type": function (req, res) {
-			this.processUpload(req, res);
+		"POST /products/upload/:orderCode/:type": {
+			openapi: false,
+			handler: handleUpload
 		},
 
 		// Categories
@@ -61,29 +83,37 @@ module.exports = {
 		"PUT /categories": "categories.import",
 		"DELETE /categories": "categories.delete",
 		"POST /categories/find": "categories.findWithContent",
-		"POST /categories/upload/:slug/:type": function (req, res) {
-			this.processUpload(req, res);
+		"POST /categories/upload/:slug/:type": {
+			openapi: false,
+			handler: handleUpload
 		},
-		"POST /categories/upload/:slug": function (req, res) {
-			this.processUpload(req, res);
+		"POST /categories/upload/:slug": {
+			openapi: false,
+			handler: handleUpload
 		},
 
 		// Order
 		"GET /order/progress": "orders.progress",
 		"POST /order/progress": "orders.progress",
 		"POST /order/list": "orders.listOrders",
-		"GET /order/invoice/download/:invoice": "orders.invoiceDownload",
-		"GET /order/invoice/pay/:orderId": "orders.paid",
-		"GET /order/invoice/cancel/:orderId": "orders.cancel",
-		"GET /order/invoice/expeded/:orderId": "orders.expede",
+		"POST /order/invoice/download/:invoice": "orders.invoiceDownload",
+		"POST /order/invoice/pay/:orderId": "orders.paid",
+		"POST /order/invoice/cancel/:orderId": "orders.cancel",
+		"POST /order/invoice/expeded/:orderId": "orders.expede",
+		"POST /order/batch": "orders.batch",
 		// Subscriptions
 		"POST /subscription/list": "subscriptions.listSubscriptions",
-		"GET /subscription/suspend/:subscriptionId": "subscriptions.suspend",
-		"GET /subscription/reactivate/:subscriptionId": "subscriptions.reactivate",
-		// Payment
-		"POST /order/payment/:supplier/:action": "orders.payment", // eg. /order/payment/paypal/geturl
+		"POST /subscription/suspend/:subscriptionId": "subscriptions.suspend",
+		"POST /subscription/pause/:subscriptionId": "subscriptions.pause",
+		"POST /subscription/batch": "subscriptions.batch",
+		"POST /subscription/reactivate/:subscriptionId": "subscriptions.reactivate",
+		// Payment endpoints for FE
+		"POST /order/payment/:supplier/:action": "orders.payment", // eg. /order/payment/stripe/paymentintent
 		"GET /order/payment/:supplier/:result": "orders.paymentResult",
-		// "POST /order/payment/paypalipn": "orders.paypalIpn", // old api
+		/**
+		 * Payment webhook that parses body as JSON
+		 * for raw body use paymentWebhookRaw
+		 */
 		"POST /order/payment/webhook/:supplier": "orders.paymentWebhook",
 
 		// Pages
@@ -96,11 +126,13 @@ module.exports = {
 		"PUT /pages": "pages.import",
 		"DELETE /pages": "pages.delete",
 		"POST /pages/count": "pages.count",
-		"POST /pages/upload/:slug/:type": function (req, res) {
-			this.processUpload(req, res);
+		"POST /pages/upload/:slug/:type": {
+			openapi: false,
+			handler: handleUpload
 		},
-		"POST /pages/upload/:slug/": function (req, res) {
-			this.processUpload(req, res);
+		"POST /pages/upload/:slug/": {
+			openapi: false,
+			handler: handleUpload
 		},
 
 		// Global
@@ -116,9 +148,19 @@ module.exports = {
 		"POST /helpers/recaptcha": "users.recaptcha"
 	},
 
+
+	// Call before every request
 	onBeforeCall(ctx, route, req) {
-		this.logger.info("api.authorize() visitor IP: ", req.connection.remoteAddress);
+		const { trustProxy } = require("../../mixins/env.helpers");
+		ctx.meta.host = req.headers.host;
 		ctx.meta.remoteAddress = req.connection.remoteAddress;
+		if (trustProxy()) {
+			if (req.headers["x-forwarded-for"]) {
+				ctx.meta.remoteAddress = String(req.headers["x-forwarded-for"]).split(",")[0].trim();
+			} else if (req.headers["x-real-ip"]) {
+				ctx.meta.remoteAddress = req.headers["x-real-ip"];
+			}
+		}
 		ctx.meta.remotePort = req.connection.remotePort;
 		// update localsDefault according to cookie value if possible
 		ctx.meta.localsDefault = this.settings.localsDefault;
@@ -126,51 +168,66 @@ module.exports = {
 		ctx.meta.siteSettings = this.settings.siteSettings;
 		ctx.meta.siteSettings.translation = this.settings.translation;
 		ctx.meta.siteSettings.assets = this.settings.assets;
+		SettingsMixin.setContext(ctx);
 	},
 
 
+	// Call after every request
 	onAfterCall(ctx, route, req, res, data) {
 		// writing cookies
-		this.logger.info("apiV1 onAfterCall - ctx.meta.makeCookies: ", ctx.meta.makeCookies);
 		if (ctx.meta.makeCookies) {
-			Object.keys(ctx.meta.makeCookies).forEach(function(key) {
-				if ( ctx.meta.makeCookies[key].options && ctx.meta.makeCookies[key].options.expires ) {
+			const cookieSecure = ((process.env.COOKIES_SECURE === "true" || process.env.COOKIES_SECURE == true) ? true : false);
+			const useCookiesLib = !!(process.env.HTTPS_KEY && process.env.HTTPS_CERT);
+			const setCookieHeaders = [];
+
+			Object.keys(ctx.meta.makeCookies).forEach(function (key) {
+				if (cookieSecure) {
+					ctx.meta.makeCookies[key].options["secure"] = true;
+				}
+				if (ctx.meta.makeCookies[key].options && ctx.meta.makeCookies[key].options.expires) {
 					ctx.meta.makeCookies[key].options.expires = new Date(ctx.meta.makeCookies[key].options.expires);
 				}
+				if (!ctx.meta.makeCookies[key].options.path) {
+					ctx.meta.makeCookies[key].options["path"] = "/";
+				}
 
-				if ( process.env.COOKIES_SECURE ) {
-					if ( process.env.HTTPS_KEY && process.env.HTTPS_CERT ) {
-						res.cookies.set(
-							key, 
-							ctx.meta.makeCookies[key].value, 
-							ctx.meta.makeCookies[key].options
-						);
-					} else {
-						res.setHeader("Set-Cookie", 
-							cookie.serialize(
-								key, 
-								String(ctx.meta.makeCookies[key].value), 
-								ctx.meta.makeCookies[key].options
-							)
-						);
-					}
-				} else { // not secure cookie
-					ctx.meta.makeCookies[key].options["secure"] = false;
+				if (useCookiesLib) {
 					res.cookies.set(
-						key, 
-						ctx.meta.makeCookies[key].value, 
+						key,
+						ctx.meta.makeCookies[key].value,
 						ctx.meta.makeCookies[key].options
 					);
+				} else {
+					// Collect headers — a single setHeader("Set-Cookie", ...) overwrites previous cookies.
+					setCookieHeaders.push(stringifySetCookie({
+						name: key,
+						value: String(ctx.meta.makeCookies[key].value),
+						...ctx.meta.makeCookies[key].options
+					}));
 				}
 			});
+
+			if (setCookieHeaders.length > 0) {
+				const existing = res.getHeader("Set-Cookie");
+				const merged = [];
+				if (existing) {
+					if (Array.isArray(existing)) {
+						merged.push(...existing);
+					} else {
+						merged.push(existing);
+					}
+				}
+				merged.push(...setCookieHeaders);
+				res.setHeader("Set-Cookie", merged);
+			}
 		} else if (ctx.meta.doRedirect) {
 			res.setHeader("Location", ctx.meta.doRedirect);
 		} else {
 			if (ctx.meta.token === null) {
 				// delete token cookie if not set in ctx.meta - erased on logout
-				res.cookies.set("token", null, null);
+				res.cookies?.set("token", null, null);
 			}
-			res.cookies.set("order_no_verif", null, null);
+			res.cookies?.set("order_no_verif", null, null);
 		}
 
 		if (ctx.meta.afterCallAction) {
@@ -191,7 +248,7 @@ module.exports = {
 	bodyParsers: {
 		json: {
 			strict: false,
-			limit: 1024*1024*10
+			limit: 1024 * 1024 * 10
 		},
 		urlencoded: {
 			extended: false

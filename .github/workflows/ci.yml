@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  validate-and-import:
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:7
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --eval 'db.runCommand({ ping: 1 })'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    defaults:
+      run:
+        working-directory: db
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: db/package-lock.json
+
+      - name: Reject committed .DS_Store files
+        working-directory: .
+        run: |
+          if find . -name .DS_Store -not -path './.git/*' | grep -q .; then
+            echo "Committed .DS_Store files are not allowed:"
+            find . -name .DS_Store -not -path './.git/*'
+            exit 1
+          fi
+
+      - name: Install importer dependencies
+        run: npm ci
+
+      - name: Validate seed JSON
+        run: npm run validate
+
+      - name: Import demo data
+        env:
+          MONGO_URI: mongodb://127.0.0.1:27017/stretchshop_demo
+        run: npm run import
+
+      - name: Re-import is idempotent (no duplicate growth)
+        env:
+          MONGO_URI: mongodb://127.0.0.1:27017/stretchshop_demo
+        run: |
+          npm run import
+          node <<'NODE'
+          const { MongoClient } = require("mongodb");
+          (async () => {
+            const client = new MongoClient(process.env.MONGO_URI);
+            await client.connect();
+            const db = client.db();
+            const counts = {};
+            for (const name of ["users", "products", "categories", "pages", "orders"]) {
+              counts[name] = await db.collection(name).countDocuments();
+            }
+            await client.close();
+            console.log(counts);
+            if (counts.users !== 2) throw new Error("expected 2 users");
+            if (counts.products !== 100) throw new Error("expected 100 products");
+            if (counts.pages !== 6) throw new Error("expected 6 pages");
+            if (counts.orders !== 1) throw new Error("expected 1 order");
+            if (counts.categories < 1) throw new Error("expected categories");
+          })().catch((err) => {
+            console.error(err);
+            process.exit(1);
+          });
+          NODE

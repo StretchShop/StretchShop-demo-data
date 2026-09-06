@@ -1,61 +1,91 @@
 const fs = require("fs");
-var path = require("path");
-const MongoClient = require("mongodb").MongoClient;
-const glob = require("glob");
+const path = require("path");
+const { MongoClient } = require("mongodb");
+const { globSync } = require("glob");
 
-const databaseName = "stretchshop_demo";
+const DEFAULT_DB = "stretchshop_demo";
+const DEFAULT_URI = `mongodb://localhost:27017/${DEFAULT_DB}`;
 
-// add authentification string if there are 4 arguments in query - ex. node db/demo_data.js user pwd
-let authPrefix = "";
-let authSuffix = "";
-let args = process.argv;
-if (args && args.length==4) {
-	authPrefix = args[2]+":"+args[3]+"@";
-	authSuffix = "?authMechanism=DEFAULT&authSource=admin";
+/**
+ * Resolve MongoDB connection URI.
+ * Priority: MONGO_URI env → argv user/pwd → default localhost.
+ * Usage: node demo_data.js [user pwd]
+ */
+function resolveMongoUri() {
+	if (process.env.MONGO_URI) {
+		return process.env.MONGO_URI;
+	}
+
+	const args = process.argv.slice(2);
+	if (args.length === 2) {
+		const [user, pwd] = args;
+		return `mongodb://${encodeURIComponent(user)}:${encodeURIComponent(pwd)}@localhost:27017/${DEFAULT_DB}?authMechanism=DEFAULT&authSource=admin`;
+	}
+
+	return DEFAULT_URI;
 }
 
-// const url = "mongodb://user:pwd@localhost:27017/"+ databaseName +"?authMechanism=DEFAULT&authSource=admin";
-const url = "mongodb://"+authPrefix+"localhost:27017/"+ databaseName +""+ authSuffix;
+function convertDates(doc) {
+	const dateKeys = ["createdAt", "lastVerifyDate", "activated"];
+	for (const key of dateKeys) {
+		if (doc[key]) {
+			doc[key] = new Date(doc[key]);
+		}
+	}
 
-console.time("import");
+	if (doc.dates && typeof doc.dates === "object") {
+		for (const [key, value] of Object.entries(doc.dates)) {
+			if (value) {
+				doc.dates[key] = new Date(value);
+			}
+		}
+	}
 
-MongoClient.connect(url, function(err, database) {
-	if (err) {
-		console.log("Connection error:", err);
+	return doc;
+}
+
+async function importCollection(db, filename) {
+	const documents = JSON.parse(fs.readFileSync(filename, "utf8"));
+	if (!Array.isArray(documents) || documents.length === 0) {
+		console.log(`skipping empty file: ${path.basename(filename)}`);
 		return;
 	}
 
-	const db = database.db(databaseName);
+	const collectionName = path.basename(filename, path.extname(filename));
+	console.log(`importing collection: ${collectionName} (${documents.length} docs)`);
 
-	let importer = [];
+	const prepared = documents.map((doc) => convertDates({ ...doc }));
 
-	glob(__dirname+"/json/*.json", function (error, files) {
-			files.forEach(function (filename) {
-				const documents = JSON.parse(fs.readFileSync(filename, "utf8"));
-				let extension = path.extname(filename);
-				let purename = path.basename(filename, extension);
-				console.log("importing collection:", purename);	
-				// if in date collection and has records
-				let dateCollections = ["users", "pages"];
-				if ( dateCollections.indexOf(purename) && documents && documents.length>0 ) { 
-					for (let i=0; i<documents.length; i++) {
-						if ( documents[i].createdAt ) { documents[i].createdAt = new Date(documents[i].createdAt); }
-						if ( documents[i].lastVerifyDate ) { documents[i].lastVerifyDate = new Date(documents[i].lastVerifyDate); }
-						if ( documents[i].activated ) { documents[i].activated = new Date(documents[i].activated); }
-						if ( documents[i].dates ) { 
-							if ( documents[i].dates.dateCreated ) { documents[i].dates.dateCreated = new Date(documents[i].dates.dateCreated); }
-							if ( documents[i].dates.dateUpdated ) { documents[i].dates.dateUpdated = new Date(documents[i].dates.dateUpdated); }
-							if ( documents[i].dates.dateSynced ) { documents[i].dates.dateSynced = new Date(documents[i].dates.dateSynced); }
-						 }
-					}
-				}
-				let collection = db.collection(purename);
-				importer.push(collection.insertMany(documents),{w:0,ordered:false});
-			});
+	const collection = db.collection(collectionName);
+	await collection.deleteMany({});
+	await collection.insertMany(prepared, { ordered: false });
+}
 
-			Promise.all(importer).then(function () {
-					console.timeEnd("import");
-					process.exit(0);
-			});
-	});
+async function main() {
+	const url = resolveMongoUri();
+	console.time("import");
+
+	const client = new MongoClient(url);
+	try {
+		await client.connect();
+		const db = client.db();
+
+		const files = globSync(path.join(__dirname, "json", "*.json")).sort();
+		if (files.length === 0) {
+			throw new Error("No JSON seed files found in db/json/");
+		}
+
+		for (const filename of files) {
+			await importCollection(db, filename);
+		}
+
+		console.timeEnd("import");
+	} finally {
+		await client.close();
+	}
+}
+
+main().catch((err) => {
+	console.error("Import failed:", err);
+	process.exit(1);
 });

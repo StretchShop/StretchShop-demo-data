@@ -1,11 +1,13 @@
 {
   "deliveryMethods": [
     {
-      "codename": "personaly",
+      "codename": "personally",
       "type": "physical",
       "name": {
-        "en": "Personaly on Branch",
-        "sk": "Osobne na Pobočke"
+        "en": "Personally on Branch",
+        "sk": "Osobne na Pobočke",
+        "de": "Persönlich in der Filiale",
+        "es": "Recogida en sucursal"
       },
       "prices": [
         {
@@ -18,8 +20,8 @@
         },
         {
           "range": {
-            "from": 1000000,
-            "to": 100000000
+            "from": 0,
+            "to": 1000000
           },
           "price": 0,
           "tax": 0.2
@@ -31,7 +33,9 @@
       "type": "physical",
       "name": {
         "en": "Courier",
-        "sk": "Kuriér"
+        "sk": "Kuriér",
+        "de": "Kurier",
+        "es": "Mensajería"
       },
       "prices": [
         {
@@ -56,7 +60,9 @@
       "type": "digital",
       "name": {
         "en": "Download",
-        "sk": "Stiahnuť"
+        "sk": "Stiahnuť",
+        "de": "Download",
+        "es": "Descargar"
       },
       "prices": [
         {
@@ -83,7 +89,9 @@
       "type": "physical",
       "name": {
         "en": "Cash On Delivery",
-        "sk": "Platba Pri Doručení"
+        "sk": "Platba Pri Doručení",
+        "de": "Nachnahme",
+        "es": "Pago contra reembolso"
       },
       "prices": [
         {
@@ -105,34 +113,12 @@
       ]
     },
     {
-      "codename": "online_paypal_paypal",
-      "name": {
-        "en": "Pay online with Paypal (Card, PayPal)",
-        "sk": "Zaplatiť online cez Paypal (Karta, PayPal)"
-      },
-      "prices": [
-        {
-          "range": {
-            "from": 0,
-            "to": 500
-          },
-          "price": 2,
-          "tax": 0.2
-        },
-        {
-          "range": {
-            "from": 500,
-            "to": 1000000
-          },
-          "price": 0
-        }
-      ]
-    },
-    {
       "codename": "online_stripe",
       "name": {
         "en": "Pay online with Stripe (Card, PayPal)",
-        "sk": "Zaplatiť online cez Stripe (Karta, PayPal)"
+        "sk": "Zaplatiť online cez Stripe (Karta, PayPal)",
+        "de": "Online mit Stripe bezahlen (Karte, PayPal)",
+        "es": "Pagar online con Stripe (Tarjeta, PayPal)"
       },
       "prices": [
         {
@@ -153,18 +139,10 @@
       ]
     }
   ],
-  "sendingOrder": {
-    "url": "https://yourdomain.tld/stretchshopbridgeapi/",
-    "port": "80",
-    "login": "yourlogin",
-    "password": "yourpassword"
-  },
   "availablePaymentActions": [
-    "paypalOrderGeturl",
-    "paypalResult",
-    "paypalWebhook",
     "stripeOrderPaymentintent",
     "stripeOrderSubscription",
+    "stripeOrderNotification",
     "stripeWebhook"
   ]
 }

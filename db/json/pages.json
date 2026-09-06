@@ -1,73 +1,260 @@
-[{
-  "externalId": "info-home",
-  "variationGroupId": null,
-  "slug": "info",
-  "publisher": "admin@example.tld",
-  "authors": null,
-  "type": "page",
-  "subtype": "default",
-  "name": {
-    "en": "Info page EN",
-    "sk": "Info stránka SK"
+[
+  {
+    "externalId": "info-home",
+    "variationGroupId": null,
+    "slug": "info",
+    "publisher": "admin@example.tld",
+    "authors": null,
+    "type": "page",
+    "subtype": "default",
+    "name": {
+      "en": "Info page EN",
+      "sk": "Info stránka SK"
+    },
+    "descriptionShort": {
+      "en": "Info page desc EN.",
+      "sk": "Info page popis SK"
+    },
+    "descriptionLong": {
+      "en": "Info page desc long EN",
+      "sk": "Info page desc long SK"
+    },
+    "properties": null,
+    "data": {
+      "blocks": [
+        {
+          "sk": "<p>Toto je <b>testovací</b> kód</p>",
+          "en": "<p >\nmrkva <b>salat</b> bumbac\n</p>\n<img alt=\"test\" data-ce-max-width=\"800\" height=\"1200\" src=\"https://stretchshop.app/assets/_site/logo.svg\" width=\"800\">"
+        }
+      ]
+    },
+    "categories": [
+      "pages-01"
+    ],
+    "pages": [
+      "test"
+    ],
+    "dates": {
+      "dateCreated": "2019-05-28T19:08:19.428Z",
+      "dateUpdated": "2019-12-04T19:04:06.044Z",
+      "dateSynced": "2019-12-04T19:04:06.044Z"
+    },
+    "note": "",
+    "activity": null
   },
-  "descriptionShort": {
-    "en": "Info page desc EN.",
-    "sk": "Info page popis SK"
+  {
+    "externalId": "page02",
+    "variationGroupId": null,
+    "slug": "test",
+    "publisher": "admin@example.tld",
+    "authors": null,
+    "type": "page",
+    "subtype": "default",
+    "name": {
+      "en": "T-page EN",
+      "sk": "T-stránka SK"
+    },
+    "descriptionShort": {
+      "en": "T-page desc EN.",
+      "sk": "T-page popis SK"
+    },
+    "descriptionLong": {
+      "en": "T long desc EN",
+      "sk": "T dlhý popis SK"
+    },
+    "properties": null,
+    "data": {
+      "blocks": [
+        {
+          "sk": "<p>Toto je <b>aaa</b> kód</p>",
+          "en": "<p >mrkva <b>bbb</b> bumbac</p>"
+        }
+      ]
+    },
+    "categories": [
+      "pages-01"
+    ],
+    "pages": [
+      "info"
+    ],
+    "dates": {
+      "dateCreated": "2019-05-28T19:08:19.428Z",
+      "dateUpdated": "2019-12-04T19:04:06.044Z",
+      "dateSynced": "2019-12-04T19:04:06.044Z"
+    },
+    "note": "",
+    "activity": null
   },
-  "descriptionLong": {
-    "en": "Info page desc long EN",
-    "sk": "Info page desc long SK"
+  {
+    "externalId": "aboutus",
+    "variationGroupId": null,
+    "slug": "aboutus",
+    "publisher": "admin@example.tld",
+    "authors": null,
+    "type": "page",
+    "subtype": "default",
+    "name": {
+      "en": "About us",
+      "sk": "O nás"
+    },
+    "descriptionShort": {
+      "en": "Who we are and why StretchShop exists.",
+      "sk": "Kto sme a prečo StretchShop existuje."
+    },
+    "descriptionLong": {
+      "en": "StretchShop is an open-source e-commerce platform. This page is demo content for the footer About us link.",
+      "sk": "StretchShop je open-source e-commerce platforma. Táto stránka je demo obsah pre odkaz O nás v pätičke."
+    },
+    "properties": null,
+    "data": {
+      "blocks": [
+        {
+          "sk": "<p>StretchShop je open-source e-commerce REST API s Vue obchodom. Táto stránka O nás je súčasťou dema, aby navigácia v pätičke fungovala.</p>",
+          "en": "<p>StretchShop is an open-source e-commerce REST API with a Vue storefront. This About page is included so footer navigation resolves in demos.</p>"
+        }
+      ]
+    },
+    "categories": [
+      "pages-01"
+    ],
+    "pages": [
+      "info"
+    ],
+    "dates": {
+      "dateCreated": "2020-01-01T01:01:00.000Z",
+      "dateUpdated": "2020-01-01T01:01:00.000Z",
+      "dateSynced": "2020-01-01T01:01:00.000Z"
+    },
+    "note": "",
+    "activity": null
   },
-  "properties": null,
-  "data": {
-    "blocks": [{
-      "sk": "<p>Toto je <b>testovací</b> kód</p>",
-      "en": "<p >\nmrkva <b>salat</b> bumbac\n</p>\n<img alt=\"test\" data-ce-max-width=\"800\" height=\"1200\" src=\"https://stretchshop.app/assets/_site/logo.svg\" width=\"800\">"
-    }]
+  {
+    "externalId": "terms-conditions",
+    "variationGroupId": null,
+    "slug": "terms-conditions",
+    "publisher": "admin@example.tld",
+    "authors": null,
+    "type": "page",
+    "subtype": "default",
+    "name": {
+      "en": "Terms and Conditions",
+      "sk": "Všeobecné obchodné podmienky"
+    },
+    "descriptionShort": {
+      "en": "Sample terms for the demo shop.",
+      "sk": "Ukážkové obchodné podmienky demo obchodu."
+    },
+    "descriptionLong": {
+      "en": "Placeholder terms and conditions for StretchShop demos.",
+      "sk": "Zástupné obchodné podmienky pre demá StretchShop."
+    },
+    "properties": null,
+    "data": {
+      "blocks": [
+        {
+          "sk": "<p>Toto sú ukážkové Všeobecné obchodné podmienky pre demo StretchShop. Pred produkčným použitím ich nahraďte vlastným právnym textom.</p>",
+          "en": "<p>These are sample Terms and Conditions for the StretchShop demo. Replace them with your own legal text before production use.</p>"
+        }
+      ]
+    },
+    "categories": [
+      "pages-01"
+    ],
+    "pages": [
+      "info"
+    ],
+    "dates": {
+      "dateCreated": "2020-01-01T01:01:00.000Z",
+      "dateUpdated": "2020-01-01T01:01:00.000Z",
+      "dateSynced": "2020-01-01T01:01:00.000Z"
+    },
+    "note": "",
+    "activity": null
   },
-  "categories": ["pages-01"],
-  "pages": ["test"],
-  "dates": {
-    "dateCreated": "2019-05-28T19:08:19.428Z",
-    "dateUpdated": "2019-12-04T19:04:06.044Z",
-    "dateSynced": "2019-12-04T19:04:06.044Z"
+  {
+    "externalId": "return-policy",
+    "variationGroupId": null,
+    "slug": "return-policy",
+    "publisher": "admin@example.tld",
+    "authors": null,
+    "type": "page",
+    "subtype": "default",
+    "name": {
+      "en": "Return Policy",
+      "sk": "Reklamačný poriadok"
+    },
+    "descriptionShort": {
+      "en": "Sample return and complaint policy.",
+      "sk": "Ukážkový reklamačný poriadok."
+    },
+    "descriptionLong": {
+      "en": "Placeholder return policy for StretchShop demos.",
+      "sk": "Zástupný reklamačný poriadok pre demá StretchShop."
+    },
+    "properties": null,
+    "data": {
+      "blocks": [
+        {
+          "sk": "<p>Tento Reklamačný poriadok je demo obsah. Popíšte, ako zákazníci vracajú fyzický tovar a ako riešia digitálne nákupy.</p>",
+          "en": "<p>This Return Policy is demo content. Describe how customers can return physical goods and handle digital purchases.</p>"
+        }
+      ]
+    },
+    "categories": [
+      "pages-01"
+    ],
+    "pages": [
+      "info"
+    ],
+    "dates": {
+      "dateCreated": "2020-01-01T01:01:00.000Z",
+      "dateUpdated": "2020-01-01T01:01:00.000Z",
+      "dateSynced": "2020-01-01T01:01:00.000Z"
+    },
+    "note": "",
+    "activity": null
   },
-  "note": "",
-  "activity": null
-}, {
-  "externalId": "page02",
-  "variationGroupId": null,
-  "slug": "test",
-  "publisher": "admin@example.tld",
-  "authors": null,
-  "type": "page",
-  "subtype": "default",
-  "name": {
-    "en": "T-page EN",
-    "sk": "T-stránka SK"
-  },
-  "descriptionShort": {
-    "en": "T-page desc EN.",
-    "sk": "T-page popis SK"
-  },
-  "descriptionLong": {
-    "en": "T long desc EN",
-    "sk": "T dlhý popis SK"
-  },
-  "properties": null,
-  "data": {
-    "blocks": [{
-      "sk": "<p>Toto je <b>aaa</b> kód</p>",
-      "en": "<p >mrkva <b>bbb</b> bumbac</p>"
-    }]
-  },
-  "categories": ["pages-01"],
-  "pages": ["info"],
-  "dates": {
-    "dateCreated": "2019-05-28T19:08:19.428Z",
-    "dateUpdated": "2019-12-04T19:04:06.044Z",
-    "dateSynced": "2019-12-04T19:04:06.044Z"
-  },
-  "note": "",
-  "activity": null
-}]
+  {
+    "externalId": "delivery-payment",
+    "variationGroupId": null,
+    "slug": "delivery-payment",
+    "publisher": "admin@example.tld",
+    "authors": null,
+    "type": "page",
+    "subtype": "default",
+    "name": {
+      "en": "Delivery and Payment",
+      "sk": "Doručenie a Platba"
+    },
+    "descriptionShort": {
+      "en": "How delivery and payment work in the demo.",
+      "sk": "Ako funguje doručenie a platba v deme."
+    },
+    "descriptionLong": {
+      "en": "Placeholder delivery and payment information for StretchShop demos.",
+      "sk": "Zástupné informácie o doručení a platbe pre demá StretchShop."
+    },
+    "properties": null,
+    "data": {
+      "blocks": [
+        {
+          "sk": "<p>Demo spôsoby doručenia zahŕňajú osobný odber, kuriéra a digitálne sťahovanie. Platobné metódy vychádzajú z resources/settings/orders.json.</p>",
+          "en": "<p>Demo delivery methods include personal pickup, courier, and digital download. Payment methods follow resources/settings/orders.json.</p>"
+        }
+      ]
+    },
+    "categories": [
+      "pages-01"
+    ],
+    "pages": [
+      "info"
+    ],
+    "dates": {
+      "dateCreated": "2020-01-01T01:01:00.000Z",
+      "dateUpdated": "2020-01-01T01:01:00.000Z",
+      "dateSynced": "2020-01-01T01:01:00.000Z"
+    },
+    "note": "",
+    "activity": null
+  }
+]
