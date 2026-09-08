@@ -16,12 +16,6 @@
       "taxId": "9876543210",
       "taxVatId": "SK9876543210",
       "registration": "Okresný súd Banská Bystrica, Vložka číslo: 38180/S",
-      "account": {
-				"bank": "Bank Bank",
-				"iban": "SK 1234567890123456789012",
-				"swift": "BREXSKXY",
-				"number": "123456 - 1234567890 / 1234"
-			},
       "contacts": {
         "phone": "+012 987 654 321",
         "email": "support@stretchshop.app",

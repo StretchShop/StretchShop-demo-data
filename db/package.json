@@ -1,10 +1,11 @@
 {
   "name": "stretchshop-demo-data",
-  "version": "0.6.3",
-  "description": "import for stretchshop demo data",
+  "version": "0.7.6",
+  "description": "Import StretchShop demo data into MongoDB",
   "main": "demo_data.js",
   "scripts": {
-    "import": "node demo_data.js"
+    "import": "node demo_data.js",
+    "validate": "node -e \"const fs=require('fs');const path=require('path');for (const f of fs.readdirSync('json').filter(n=>n.endsWith('.json'))) { JSON.parse(fs.readFileSync(path.join('json',f),'utf8')); console.log('ok', f); }\""
   },
   "keywords": [
     "stretchshop",
@@ -14,8 +15,10 @@
   "author": "Marcel Zubrik cw.sk",
   "license": "GPL-3.0",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "glob": "^7.1.6",
-    "mongodb": "^3.7.4"
+    "glob": "^13.0.6",
+    "mongodb": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=22.23.0"
   }
 }
