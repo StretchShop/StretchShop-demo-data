@@ -3887,31 +3887,27 @@
     "type": "product",
     "subtype": "physical",
     "name": {
-      "en": "Product#98 EN",
-      "sk": "Product#98 SK"
+      "en": "Demo book EN",
+      "sk": "Demo book SK"
     },
     "descriptionShort": {
-      "en": "Product#98 Short description EN",
-      "sk": "Product#98 Short description SK"
+      "en": "Demo book for physical checkout demos.",
+      "sk": "Demo kniha na ukážku fyzického nákupu."
     },
     "descriptionLong": {
-      "en": "Product#98 This description can be much longer with more text inside - great for description in detail. EN",
-      "sk": "Product#98 This description can be much longer with more text inside - great for description in detail. SK"
+      "en": "A physical product used to demonstrate physical checkout flows.",
+      "sk": "Fyzický produkt na demonštráciu fyzického nákupu."
     },
-    "price": 108,
-    "tax": 0.1,
-    "stockAmount": 105,
-    "slug": "product-no98",
+    "price": 7.99,
+    "tax": 0.2,
+    "stockAmount": -1,
+    "slug": "demo-book",
     "properties": {
-      "year": "2032",
-      "author": [
-        "Marcel Zúbrik"
-      ],
-      "pages": 102,
-      "ISBN": "MS029-0000098-223"
+      "format": "softcover",
+      "pages": 48
     },
     "categories": [
-      "category-l1-no8-category-l2-no12-category-l3-no14"
+      "category-l1-no1"
     ],
     "dates": {
       "dateCreated": null,
