@@ -1,6 +1,6 @@
 {
   "name": "stretchshop-demo-data",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "Import StretchShop demo data into MongoDB",
   "main": "demo_data.js",
   "scripts": {
