@@ -1,0 +1,1 @@
+import{A as e}from"./stores-Clg3VXUE.js";var t=(t,{slots:n,attrs:r})=>e(`button`,{type:`button`,...t,...r},n.default?.());export{t};
